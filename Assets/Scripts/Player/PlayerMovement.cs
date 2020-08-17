@@ -8,10 +8,20 @@ public class PlayerMovement : MonoBehaviour
 
     public float moveSpeed;
 
+    private bool isArmed = false;
+
     void Awake()
     {
         animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            ChangeWeaponVisibility();
+        }
     }
 
     void FixedUpdate()
@@ -29,6 +39,13 @@ public class PlayerMovement : MonoBehaviour
 
         moveDirection = new Vector2(xDir, yDir).normalized;
     }
+
+    private void ChangeWeaponVisibility()
+    {
+        isArmed = !isArmed;
+        animator.SetBool(Consts.IsArmed, isArmed);
+    }
+
     private void Move()
     {
         rigidBody.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
