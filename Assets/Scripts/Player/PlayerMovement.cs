@@ -16,13 +16,32 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        ProcessInputs();
+        Move();
+        Animate();
+        
+    }
+
+    private void ProcessInputs()
+    {
         var xDir = Input.GetAxisRaw(Consts.Horizontal);
         var yDir = Input.GetAxisRaw(Consts.Vertical);
 
         moveDirection = new Vector2(xDir, yDir).normalized;
-        animator.SetFloat(Consts.Horizontal, xDir);
-        animator.SetFloat(Consts.Vertical, yDir);
-        animator.SetFloat(Consts.Magnitude, moveDirection.magnitude);
+    }
+    private void Move()
+    {
         rigidBody.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
+    }
+
+    private void Animate()
+    {
+        if (moveDirection != Vector2.zero)
+        {
+            animator.SetFloat(Consts.Horizontal, moveDirection.x);
+            animator.SetFloat(Consts.Vertical, moveDirection.y);
+        }
+        
+        animator.SetFloat(Consts.MoveSpeed, Mathf.Clamp(moveDirection.magnitude, 0f, 1f));
     }
 }
