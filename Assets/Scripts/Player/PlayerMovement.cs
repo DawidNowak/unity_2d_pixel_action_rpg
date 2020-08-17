@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveDirection;
 
     public float moveSpeed;
-    public bool facingLeft = true;
 
     void Awake()
     {
@@ -20,32 +19,10 @@ public class PlayerMovement : MonoBehaviour
         var xDir = Input.GetAxisRaw(Consts.Horizontal);
         var yDir = Input.GetAxisRaw(Consts.Vertical);
 
-        SetHorizontalFacing(xDir);
-
         moveDirection = new Vector2(xDir, yDir).normalized;
-        animator.SetFloat(Consts.horizontalMovement, Mathf.Abs(xDir));
+        animator.SetFloat(Consts.Horizontal, xDir);
+        animator.SetFloat(Consts.Vertical, yDir);
+        animator.SetFloat(Consts.Magnitude, moveDirection.magnitude);
         rigidBody.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
-    }
-
-    private void SetHorizontalFacing(float xDir)
-    {
-        if (Mathf.Abs(xDir) < float.Epsilon)
-        {
-            return;
-        }
-
-        if ((xDir > 0 && facingLeft) || (xDir < 0 && !facingLeft))
-        {
-            Flip();
-        }
-    }
-
-    void Flip()
-    {
-        facingLeft = !facingLeft;
-
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
     }
 }

@@ -5,5 +5,5 @@
     public static string Vertical = nameof(Vertical);
 
     //PLAYER ANIMATION VARIABLES AND TRIGGERS
-    public static string horizontalMovement = nameof(horizontalMovement);
+    public static string Magnitude = nameof(Magnitude);
 }
