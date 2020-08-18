@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: IdleLeft
+  m_Name: Rabilion_Idle_Down
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -4840795102313982530, guid: ce581882834feeb4982f2179e8b0bdf5, type: 3}
+      value: {fileID: -6163557648283729007, guid: 9d46ac9415c5b1844a0d03a057e5d08c, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -40,7 +40,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -4840795102313982530, guid: ce581882834feeb4982f2179e8b0bdf5, type: 3}
+    - {fileID: -6163557648283729007, guid: 9d46ac9415c5b1844a0d03a057e5d08c, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

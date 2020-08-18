@@ -8,44 +8,17 @@ public class PlayerMovement : MonoBehaviour
 
     public float moveSpeed;
 
-    private bool isArmed = false;
-
     void Awake()
     {
         animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            ChangeWeaponVisibility();
-        }
-
-        if (isArmed && Input.GetKeyDown(KeyCode.X))
-        {
-            Attack();
-        }
-    }
-
     void FixedUpdate()
     {
         ProcessInputs();
-        Move();
         Animate();
-        
-    }
-
-    private void ChangeWeaponVisibility()
-    {
-        isArmed = !isArmed;
-        animator.SetBool(Consts.IsArmed, isArmed);
-    }
-
-    private void Attack()
-    {
-        animator.SetTrigger(Consts.Attack);
+        Move();
     }
 
     private void ProcessInputs()
@@ -55,8 +28,6 @@ public class PlayerMovement : MonoBehaviour
 
         moveDirection = new Vector2(xDir, yDir).normalized;
     }
-
-
 
     private void Move()
     {

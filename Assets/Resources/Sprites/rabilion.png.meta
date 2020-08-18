@@ -1,0 +1,1354 @@
+fileFormatVersion: 2
+guid: 9d46ac9415c5b1844a0d03a057e5d08c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6163557648283729007
+    second: rabilion_0
+  - first:
+      213: -5991375548163377160
+    second: rabilion_1
+  - first:
+      213: 7804355510947887535
+    second: rabilion_2
+  - first:
+      213: 3106931303001058248
+    second: rabilion_3
+  - first:
+      213: 5257981619891741005
+    second: rabilion_4
+  - first:
+      213: 1469047744635807103
+    second: rabilion_5
+  - first:
+      213: 974963293435056574
+    second: rabilion_6
+  - first:
+      213: -6415416835158551301
+    second: rabilion_7
+  - first:
+      213: -5012006454550918001
+    second: rabilion_8
+  - first:
+      213: -1869303760755944959
+    second: rabilion_9
+  - first:
+      213: -4681650988609211243
+    second: rabilion_10
+  - first:
+      213: -4746596926220919507
+    second: rabilion_11
+  - first:
+      213: 3638579728132623650
+    second: rabilion_12
+  - first:
+      213: 7334607770645393218
+    second: rabilion_13
+  - first:
+      213: -8187845583953370648
+    second: rabilion_14
+  - first:
+      213: -3174889879040597886
+    second: rabilion_15
+  - first:
+      213: 166310456818640063
+    second: rabilion_16
+  - first:
+      213: -4154132033923037207
+    second: rabilion_17
+  - first:
+      213: 4051647979962017852
+    second: rabilion_18
+  - first:
+      213: 3478842452121238817
+    second: rabilion_19
+  - first:
+      213: -2578176387812961131
+    second: rabilion_20
+  - first:
+      213: -4425203413307647438
+    second: rabilion_21
+  - first:
+      213: -7502910393792980476
+    second: rabilion_22
+  - first:
+      213: -3750895636484468133
+    second: rabilion_23
+  - first:
+      213: -4138326338999943848
+    second: rabilion_24
+  - first:
+      213: 7897312043426547236
+    second: rabilion_25
+  - first:
+      213: 4560103413250264811
+    second: rabilion_26
+  - first:
+      213: -7592092264338068306
+    second: rabilion_27
+  - first:
+      213: 6159181360079089372
+    second: rabilion_28
+  - first:
+      213: 6897130008186889785
+    second: rabilion_29
+  - first:
+      213: 4736988756392817881
+    second: rabilion_30
+  - first:
+      213: 7373415274068438615
+    second: rabilion_31
+  - first:
+      213: -7543178302811976175
+    second: rabilion_32
+  - first:
+      213: -5158721314546044670
+    second: rabilion_33
+  - first:
+      213: 4976918021668132841
+    second: rabilion_34
+  - first:
+      213: 7004284646540734361
+    second: rabilion_35
+  - first:
+      213: -5169801560444787931
+    second: rabilion_36
+  - first:
+      213: -633278844109221384
+    second: rabilion_37
+  - first:
+      213: 13309701265799136
+    second: rabilion_38
+  - first:
+      213: -666691515244665424
+    second: rabilion_39
+  - first:
+      213: -7565337929453412447
+    second: rabilion_40
+  - first:
+      213: 8289529342130435159
+    second: rabilion_41
+  - first:
+      213: -2087974435643964058
+    second: rabilion_42
+  - first:
+      213: -5075360188830925169
+    second: rabilion_43
+  - first:
+      213: 6856176915673702352
+    second: rabilion_44
+  - first:
+      213: 1464429398449916047
+    second: rabilion_45
+  - first:
+      213: -7025249974214241943
+    second: rabilion_46
+  - first:
+      213: -2416325755277221165
+    second: rabilion_47
+  - first:
+      213: 1981350707298070276
+    second: rabilion_48
+  - first:
+      213: -6093655758799135980
+    second: rabilion_49
+  - first:
+      213: -4023308629095153163
+    second: rabilion_50
+  - first:
+      213: 4908904197067723614
+    second: rabilion_51
+  - first:
+      213: -3813277942202345715
+    second: rabilion_52
+  - first:
+      213: 2597799830021959947
+    second: rabilion_53
+  - first:
+      213: 1061258382138078473
+    second: rabilion_54
+  - first:
+      213: -8044385382507664569
+    second: rabilion_55
+  - first:
+      213: -2099113875126415606
+    second: rabilion_56
+  - first:
+      213: 6785341643856882507
+    second: rabilion_57
+  - first:
+      213: 3918060634449643891
+    second: rabilion_58
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rabilion_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 332
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193086d89f4a67aa0800000000000000
+      internalID: -6163557648283729007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 332
+        width: 22
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7b2cfbeab5adca0800000000000000
+      internalID: -5991375548163377160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 332
+        width: 20
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa939eaecf3ae4c60800000000000000
+      internalID: 7804355510947887535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 330
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb6be01f890e1b20800000000000000
+      internalID: 3106931303001058248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 331
+        width: 24
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1dd3623f3c78d00800000000000000
+      internalID: 974963293435056574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_7
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 331
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf45056f06cd7f6a0800000000000000
+      internalID: -6415416835158551301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 331
+        width: 24
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c07803fa6c17ab0800000000000000
+      internalID: -5012006454550918001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_9
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 331
+        width: 20
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10217d23226ee06e0800000000000000
+      internalID: -1869303760755944959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 293
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5947795fa3f670fb0800000000000000
+      internalID: -4681650988609211243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 293
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d14a08e33b02eb0800000000000000
+      internalID: -4746596926220919507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 293
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d48461cf4de7230800000000000000
+      internalID: 3638579728132623650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 293
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f632038e2c9c560800000000000000
+      internalID: 7334607770645393218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 292
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e165bc82ddee5e80800000000000000
+      internalID: -8187845583953370648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 293
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e742f7bcee8956c0800000000000000
+      internalID: -4154132033923037207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 293
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38a0980f585a3830800000000000000
+      internalID: 4051647979962017852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_19
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 293
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d3c3c47c4574030800000000000000
+      internalID: 3478842452121238817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 254
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594db1c2c3a783cd0800000000000000
+      internalID: -2578176387812961131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 254
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a93faf0f48692c0800000000000000
+      internalID: -4425203413307647438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_22
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 254
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a126cbfbe40e790800000000000000
+      internalID: -7502910393792980476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_23
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 254
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52d7cdaa4422fbc0800000000000000
+      internalID: -3750895636484468133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_24
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 254
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85df347de16b196c0800000000000000
+      internalID: -4138326338999943848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_27
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 254
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac632a6f4873a690800000000000000
+      internalID: -7592092264338068306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_28
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 254
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdea8b270dec97550800000000000000
+      internalID: 6159181360079089372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_29
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 254
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936aaab233787bf50800000000000000
+      internalID: 6897130008186889785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 215
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d430d12d2a2db140800000000000000
+      internalID: 4736988756392817881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_31
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 215
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ee9403022a35660800000000000000
+      internalID: 7373415274068438615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_32
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 215
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e457f8c4f315790800000000000000
+      internalID: -7543178302811976175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_33
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 215
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2013f37eb4a8868b0800000000000000
+      internalID: -5158721314546044670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 216
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7d4c56290911540800000000000000
+      internalID: 4976918021668132841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 216
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1991d1f342637f0800000000000000
+      internalID: -633278844109221384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_38
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 216
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7b3005a194f2000800000000000000
+      internalID: 13309701265799136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_39
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 216
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b52313699f6fb6f0800000000000000
+      internalID: -666691515244665424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_40
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 172
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afd32d6c35820790800000000000000
+      internalID: -7565337929453412447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_41
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 173
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754bcd054035a0370800000000000000
+      internalID: 8289529342130435159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 173
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665485730560603e0800000000000000
+      internalID: -2087974435643964058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_43
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 173
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8eb2957cc2b099b0800000000000000
+      internalID: -5075360188830925169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_44
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 140
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfd6f74498062f50800000000000000
+      internalID: 6856176915673702352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_45
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 140
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f880f3d67c2b25410800000000000000
+      internalID: 1464429398449916047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_46
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 140
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96153acae5c418e90800000000000000
+      internalID: -7025249974214241943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_47
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 139
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2e21f178c777ed0800000000000000
+      internalID: -2416325755277221165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_48
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 110
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f68fb78fb2f7b10800000000000000
+      internalID: 1981350707298070276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_49
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 109
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b93497f5cfe6ba0800000000000000
+      internalID: -6093655758799135980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_50
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 110
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f105054e165a28c0800000000000000
+      internalID: -4023308629095153163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_51
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 84
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5355a6db5eef1440800000000000000
+      internalID: 4908904197067723614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_52
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 94
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0752394ae3841bc0800000000000000
+      internalID: -3813277942202345715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_53
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 91
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0177028e2d3d0420800000000000000
+      internalID: 2597799830021959947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_54
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 93
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905fe3230e85abe00800000000000000
+      internalID: 1061258382138078473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_55
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 86
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b29479d1a9c5090800000000000000
+      internalID: -8044385382507664569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_56
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 75
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f0ff95d037ed2e0800000000000000
+      internalID: -2099113875126415606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_57
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 74
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b21c956406a2e50800000000000000
+      internalID: 6785341643856882507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabilion_58
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 76
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37900d4636fbf5630800000000000000
+      internalID: 3918060634449643891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
