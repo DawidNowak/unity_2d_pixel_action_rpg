@@ -22,6 +22,11 @@ public class PlayerMovement : MonoBehaviour
         {
             ChangeWeaponVisibility();
         }
+
+        if (isArmed && Input.GetKeyDown(KeyCode.X))
+        {
+            Attack();
+        }
     }
 
     void FixedUpdate()
@@ -32,6 +37,17 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
+    private void ChangeWeaponVisibility()
+    {
+        isArmed = !isArmed;
+        animator.SetBool(Consts.IsArmed, isArmed);
+    }
+
+    private void Attack()
+    {
+        animator.SetTrigger(Consts.Attack);
+    }
+
     private void ProcessInputs()
     {
         var xDir = Input.GetAxisRaw(Consts.Horizontal);
@@ -40,11 +56,7 @@ public class PlayerMovement : MonoBehaviour
         moveDirection = new Vector2(xDir, yDir).normalized;
     }
 
-    private void ChangeWeaponVisibility()
-    {
-        isArmed = !isArmed;
-        animator.SetBool(Consts.IsArmed, isArmed);
-    }
+
 
     private void Move()
     {

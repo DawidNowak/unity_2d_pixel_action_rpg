@@ -7,4 +7,5 @@
     //PLAYER ANIMATION VARIABLES AND TRIGGERS
     public static string MoveSpeed = nameof(MoveSpeed);
     public static string IsArmed = nameof(IsArmed);
+    public static string Attack = nameof(Attack);
 }
