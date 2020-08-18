@@ -2,7 +2,7 @@
 
 public abstract class LivingObject : MonoBehaviour
 {
-    public int MaxHealth;
+    public int MaxHealth = 1;
     public int Health;
 
     protected virtual void Start()

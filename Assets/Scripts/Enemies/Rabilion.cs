@@ -19,7 +19,7 @@ public class Rabilion : LivingObject
 
     protected override void Die()
     {
-        animator.SetBool(Consts.Die, true);
+        animator.SetBool(Consts.IsDead, true);
         base.Die();
     }
 }

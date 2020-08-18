@@ -48,7 +48,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Die
+    m_ConditionEvent: IsDead
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 39997378639924021}
@@ -58,8 +58,8 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0
   m_TransitionOffset: 0
-  m_ExitTime: 0
-  m_HasExitTime: 0
+  m_ExitTime: 1
+  m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -266,10 +266,10 @@ AnimatorStateMachine:
     m_Position: {x: -440, y: -80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6349046557566404639}
-    m_Position: {x: -680, y: -160, z: 0}
+    m_Position: {x: -690, y: -160, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 39997378639924021}
-    m_Position: {x: -680, y: -240, z: 0}
+    m_Position: {x: -690, y: -240, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -5224090376278209036}
@@ -277,7 +277,7 @@ AnimatorStateMachine:
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: -900, y: -150, z: 0}
-  m_EntryPosition: {x: -730, y: 60, z: 0}
+  m_EntryPosition: {x: -690, y: 10, z: 0}
   m_ExitPosition: {x: -420, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 3405174094028300273}
@@ -414,7 +414,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Die
+  - m_Name: IsDead
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -523,7 +523,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: Die
+    m_ConditionEvent: IsDead
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3405174094028300273}
