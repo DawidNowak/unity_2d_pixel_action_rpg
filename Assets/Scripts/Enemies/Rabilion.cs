@@ -11,7 +11,7 @@ public class Rabilion : LivingObject
         base.Start();
     }
 
-    protected override void TakeDamage(int damage)
+    public override void TakeDamage(int damage)
     {
         animator.SetTrigger(Consts.Hurt);
         base.TakeDamage(damage);

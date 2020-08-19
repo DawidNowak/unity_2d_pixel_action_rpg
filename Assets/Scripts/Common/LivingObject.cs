@@ -10,7 +10,7 @@ public abstract class LivingObject : MonoBehaviour
         Health = MaxHealth;
     }
 
-    protected virtual void TakeDamage(int damage)
+    public virtual void TakeDamage(int damage)
     {
         Health -= damage;
         if (Health <= 0)
