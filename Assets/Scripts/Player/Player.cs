@@ -4,21 +4,26 @@ using static Assets.Scripts.Utils.Extensions;
 
 public class Player : MonoBehaviour
 {
+    #region Private
     private Animator animator;
     private Rigidbody2D rigidBody;
-    private Vector2 moveDirection;
 
     private bool isArmed;
     private float attackRate = 2f;
     private float nextAttack = 0f;
 
-    private Vector2 direction;
+    private Vector2 facingDirection;
+    private Vector2 moveDirection;
+    #endregion
 
+    #region Public
     public float moveSpeed;
+
     public Transform attackPosition;
     public float weaponRange = 8f;
     public LayerMask destructibleLayers;
     public int attackDamage = 2;
+    #endregion
 
     void Awake()
     {
@@ -29,6 +34,13 @@ public class Player : MonoBehaviour
     {
         ProcessArming();
         ProcessAttack();
+    }
+
+    void FixedUpdate()
+    {
+        ProcessInputs();
+        Animate();
+        Move();
     }
 
     private void ProcessArming()
@@ -48,29 +60,36 @@ public class Player : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
-    {
-        ProcessInputs();
-        Animate();
-        Move();
-    }
-
     private void Attack()
     {
         animator.SetTrigger(Consts.Attack);
         nextAttack = Time.time + 1f / attackRate;
 
+        HitEnemies();
+    }
+
+    private void HitEnemies()
+    {
         var direction = DetermineDirection();
         attackPosition.position = transform.position + direction.ConvertToVector3() * 15f;
 
-        var hitEnemies = Physics2D.OverlapCircleAll(attackPosition.position, weaponRange, destructibleLayers);
+        var enemies = GetEnemiesInRange(direction);
 
-        foreach (var enemy in hitEnemies)
+        foreach (var enemy in enemies)
         {
             enemy.GetComponent<LivingObject>().TakeDamage(attackDamage);
         }
+    }
 
-        //TODO: FINISH AS ON YT
+    private Collider2D[] GetEnemiesInRange(Facing direction)
+    {
+        Collider2D[] hitEnemies;
+        if (direction == Facing.Left || direction == Facing.Right)
+            hitEnemies = Physics2D.OverlapCircleAll(attackPosition.position, weaponRange, destructibleLayers);
+        else
+            hitEnemies = Physics2D.OverlapCapsuleAll(attackPosition.position, new Vector2(4 * weaponRange, 2 * weaponRange), CapsuleDirection2D.Horizontal, 0f, destructibleLayers);
+
+        return hitEnemies;
     }
 
     void OnDrawGizmosSelected()
@@ -83,13 +102,13 @@ public class Player : MonoBehaviour
 
     private Facing DetermineDirection()
     {
-        if (direction == null || direction == Vector2.zero)
+        if (facingDirection == null || facingDirection == Vector2.zero)
         {
             return Facing.Down;
         }
 
-        var x = direction.x;
-        var y = direction.y;
+        var x = facingDirection.x;
+        var y = facingDirection.y;
         var xLength = Mathf.Abs(x);
         var yLength = Mathf.Abs(y);
 
@@ -117,7 +136,7 @@ public class Player : MonoBehaviour
 
         if (moveDirection != Vector2.zero)
         {
-            direction = moveDirection;
+            facingDirection = moveDirection;
         }
     }
 

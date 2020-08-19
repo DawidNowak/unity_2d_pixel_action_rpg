@@ -15,6 +15,7 @@ namespace Assets.Scripts.Utils
         public enum State
         {
             Normal,
+            Walking,
             Attacking
         }
     }
