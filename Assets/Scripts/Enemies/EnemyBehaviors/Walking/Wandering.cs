@@ -2,7 +2,7 @@
 using UnityEngine;
 using static Assets.Scripts.Utils.Enums;
 
-public class Wandering : MonoBehaviour
+public class Wandering : WalkingBase
 {
     private Animator animator;
 
@@ -10,8 +10,6 @@ public class Wandering : MonoBehaviour
     private Vector3 direction;
     private float idleTime = 2f;
     private float nextMove = 0f;
-
-    private State state;
 
     public float restDuration = 2f;
     public float moveProbability = 0.25f;
@@ -27,17 +25,14 @@ public class Wandering : MonoBehaviour
     {
         switch (state)
         {
-            case State.Normal:
+            case WalkingState.Standing:
             default:
                 if (ShouldMove())
                     MoveToRandomPosition();
                 break;
 
-            case State.Walking:
+            case WalkingState.Walking:
                 ProcessWalking();
-                break;
-
-            case State.Attacking:
                 break;
         }
     }
@@ -57,7 +52,7 @@ public class Wandering : MonoBehaviour
     {
         direction = DetermineDirection();
         target = transform.position + direction * moveDistance;
-        state = State.Walking;
+        state = WalkingState.Walking;
         animator.SetFloat(Consts.Horizontal, direction.x);
         animator.SetFloat(Consts.Vertical, direction.y);
         animator.SetFloat(Consts.MoveSpeed, moveSpeed);
@@ -76,7 +71,7 @@ public class Wandering : MonoBehaviour
             animator.SetFloat(Consts.Horizontal, direction.x * Vector2.kEpsilon);
             animator.SetFloat(Consts.Vertical, direction.y * Vector2.kEpsilon);
             animator.SetFloat(Consts.MoveSpeed, 0f);
-            state = State.Normal;
+            state = WalkingState.Standing;
             return;
         }
         transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), target, moveSpeed * Time.deltaTime);

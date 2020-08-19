@@ -12,11 +12,10 @@ namespace Assets.Scripts.Utils
             Down
         }
 
-        public enum State
+        public enum WalkingState
         {
-            Normal,
-            Walking,
-            Attacking
+            Standing,
+            Walking
         }
     }
 }
