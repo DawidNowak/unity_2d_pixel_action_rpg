@@ -17,5 +17,11 @@ namespace Assets.Scripts.Utils
             Standing,
             Walking
         }
+
+        public enum Stance
+        {
+            Aggressive,
+            Calm
+        }
     }
 }

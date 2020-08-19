@@ -30,6 +30,7 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
     }
+
     void Update()
     {
         ProcessArming();
@@ -90,14 +91,6 @@ public class Player : MonoBehaviour
             hitEnemies = Physics2D.OverlapCapsuleAll(attackPosition.position, new Vector2(4 * weaponRange, 2 * weaponRange), CapsuleDirection2D.Horizontal, 0f, destructibleLayers);
 
         return hitEnemies;
-    }
-
-    void OnDrawGizmosSelected()
-    {
-        if (attackPosition == null)
-            return;
-
-        Gizmos.DrawWireSphere(attackPosition.position, weaponRange);
     }
 
     private Facing DetermineDirection()
