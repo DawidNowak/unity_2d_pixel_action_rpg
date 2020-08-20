@@ -2,18 +2,19 @@
 using UnityEngine;
 using static Assets.Scripts.Utils.Enums;
 
-public class ChasingStrategy : MovingStrategy
+public class FleeingStrategy : MovingStrategy
 {
     public float playerDetectionRange = 100f;
+    public float fleeDistance = 40f;
 
     private float searchDelay = 1f;
     private float nextSearch = 0f;
 
-    public static ChasingStrategy CreateComponent(GameObject where, float playerDetectionRange = 100f, float acceptableDistanceFromPlayer = 20f, float searchDelay = 1f)
+    public static FleeingStrategy CreateComponent(GameObject where, float playerDetectionRange = 100f, float fleeDistance = 40f, float searchDelay = 1f)
     {
-        ChasingStrategy strategy = where.AddComponent<ChasingStrategy>();
+        FleeingStrategy strategy = where.AddComponent<FleeingStrategy>();
         strategy.playerDetectionRange = playerDetectionRange;
-        strategy.acceptableDistanceFromTarget = acceptableDistanceFromPlayer;
+        strategy.fleeDistance = fleeDistance;
         strategy.searchDelay = searchDelay;
         return strategy;
     }
@@ -46,7 +47,9 @@ public class ChasingStrategy : MovingStrategy
         var target = SearchForTarget();
         if (target != null)
         {
-            Move(target.transform.position);
+            var vectorFromTarget = transform.position - target.transform.position;
+            var destination = (transform.position + vectorFromTarget).normalized * fleeDistance;
+            Move(transform.position + destination);
         }
     }
 

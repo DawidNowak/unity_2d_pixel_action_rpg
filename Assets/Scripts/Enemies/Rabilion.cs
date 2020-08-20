@@ -7,7 +7,9 @@ public class Rabilion : EnemyController
 
     protected override void Start()
     {
-        movingStrategy = WanderingStrategy.CreateComponent(gameObject, 20f);
+        //movingStrategy = WanderingStrategy.CreateComponent(gameObject, 20f);
+        //movingStrategy = ChasingStrategy.CreateComponent(gameObject, 100f);
+        movingStrategy = FleeingStrategy.CreateComponent(gameObject, 100f);
 
         animator = GetComponent<Animator>();
         base.Start();

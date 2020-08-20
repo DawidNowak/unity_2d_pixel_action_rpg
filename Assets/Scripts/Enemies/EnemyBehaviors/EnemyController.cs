@@ -6,11 +6,17 @@
     {
         base.Start();
 
-        movingStrategy?.Start();
+        if (movingStrategy != null)
+        {
+            movingStrategy.Start();
+        };
     }
 
     void Update()
     {
-        movingStrategy?.Update();
+        if (movingStrategy != null)
+        {
+            movingStrategy.Update();
+        };
     }
 }

@@ -4,6 +4,7 @@ using static Assets.Scripts.Utils.Enums;
 public abstract class MovingStrategy : MonoBehaviour
 {
     public float moveSpeed = 60f;
+    public float acceptableDistanceFromTarget = 0f;
 
     protected Animator animator;
 
@@ -45,9 +46,9 @@ public abstract class MovingStrategy : MonoBehaviour
         }
     }
 
-    protected void CheckMovementFinished()
+    protected virtual void CheckMovementFinished()
     {
-        if (target == null || transform.position == target)
+        if (target == null || IsTargetInRange())
         {
             animator.SetFloat(Consts.MoveSpeed, 0f);
             state = WalkingState.Standing;
@@ -57,7 +58,14 @@ public abstract class MovingStrategy : MonoBehaviour
     protected void Move(Vector2 target)
     {
         this.target = target;
-        animator.SetFloat(Consts.MoveSpeed, moveSpeed);
-        state = WalkingState.Walking;
+        if (!IsTargetInRange())
+        {
+            animator.SetFloat(Consts.MoveSpeed, moveSpeed);
+            state = WalkingState.Walking;
+        }
+    }
+    protected bool IsTargetInRange()
+    {
+        return Vector3.Distance(transform.position, target) <= acceptableDistanceFromTarget;
     }
 }
