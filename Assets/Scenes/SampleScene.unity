@@ -140,6 +140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f913c8429afe45f4d96fd403d83289a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxHealth: 1
+  Health: 0
   moveSpeed: 80
   stance: 0
   playerDetectionRange: 100
@@ -355,6 +357,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 218014982871634524, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_Name
       value: Rabilion (2)
@@ -412,6 +418,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 218014982871634524, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_Name
       value: Rabilion (1)
@@ -487,7 +497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3725751979525972541, guid: 7622b73d10c0b0942a5b9a4fd6dc8d2d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -40
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3725751979525972541, guid: 7622b73d10c0b0942a5b9a4fd6dc8d2d, type: 3}
       propertyPath: m_LocalPosition.z

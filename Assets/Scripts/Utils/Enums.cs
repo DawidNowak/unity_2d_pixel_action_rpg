@@ -21,7 +21,8 @@ namespace Assets.Scripts.Utils
         public enum Stance
         {
             Aggressive,
-            Calm
+            Defensive,
+            Coward
         }
     }
 }

@@ -1,8 +1,7 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using static Assets.Scripts.Utils.Enums;
 
-public class WalkingBase : MonoBehaviour
+public class MovingObject : LivingObject
 {
     public float moveSpeed = 80f;
 
@@ -12,7 +11,7 @@ public class WalkingBase : MonoBehaviour
 
     protected Vector3 target;
 
-    protected virtual void Start()
+    protected override void Start()
     {
         state = WalkingState.Standing;
         animator = GetComponent<Animator>();
@@ -61,5 +60,4 @@ public class WalkingBase : MonoBehaviour
         animator.SetFloat(Consts.MoveSpeed, moveSpeed);
         state = WalkingState.Walking;
     }
-
 }

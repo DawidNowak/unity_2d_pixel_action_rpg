@@ -46,6 +46,6 @@ public abstract class LivingObject : MonoBehaviour
             script.enabled = false;
         }
 
-        this.enabled = false;
+        enabled = false;
     }
 }

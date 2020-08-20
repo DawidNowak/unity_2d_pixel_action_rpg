@@ -2,7 +2,7 @@
 using UnityEngine;
 using static Assets.Scripts.Utils.Enums;
 
-public class Aggresive : WalkingBase
+public class Aggresive : MovingObject
 {
     public Stance stance = Stance.Aggressive;
     public float playerDetectionRange = 100f;
@@ -15,7 +15,6 @@ public class Aggresive : WalkingBase
         base.Start();
     }
 
-    // Update is called once per frame
     protected override void Update()
     {
         switch (state)
@@ -33,13 +32,12 @@ public class Aggresive : WalkingBase
 
     private void ProcessStance()
     {
-        if (stance == Stance.Calm || Time.time < nextSearch)
+        if (stance == Stance.Defensive || Time.time < nextSearch)
             return;
 
         var target = SearchForTarget();
         if (target != null)
         {
-            Debug.Log("Target found!");
             Move(target.transform.position);
         }
     }
@@ -47,7 +45,6 @@ public class Aggresive : WalkingBase
     private Collider2D SearchForTarget()
     {
         nextSearch = Time.time + searchDelay;
-        Debug.Log("Searching for target!");
         var player = Physics2D.OverlapCircleAll(transform.position, playerDetectionRange, LayerMask.GetMask("Player"))
             .SingleOrDefault();
 

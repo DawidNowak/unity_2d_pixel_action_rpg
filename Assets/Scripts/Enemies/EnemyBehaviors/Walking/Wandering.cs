@@ -2,7 +2,7 @@
 using UnityEngine;
 using static Assets.Scripts.Utils.Enums;
 
-public class Wandering : WalkingBase
+public class Wandering : MovingObject
 {
     private Vector3 direction;
     private float idleTime = 2f;
