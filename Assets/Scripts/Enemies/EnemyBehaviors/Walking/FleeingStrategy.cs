@@ -5,12 +5,12 @@ using static Assets.Scripts.Utils.Enums;
 public class FleeingStrategy : MovingStrategy
 {
     public float playerDetectionRange = 100f;
-    public float fleeDistance = 40f;
+    public float fleeDistance = 80f;
 
     private float searchDelay = 1f;
     private float nextSearch = 0f;
 
-    public static FleeingStrategy CreateComponent(GameObject where, float playerDetectionRange = 100f, float fleeDistance = 40f, float searchDelay = 1f)
+    public static FleeingStrategy CreateComponent(GameObject where, float playerDetectionRange = 100f, float fleeDistance = 80f, float searchDelay = 1f)
     {
         FleeingStrategy strategy = where.AddComponent<FleeingStrategy>();
         strategy.playerDetectionRange = playerDetectionRange;

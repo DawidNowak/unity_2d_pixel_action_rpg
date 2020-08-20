@@ -5,13 +5,13 @@ public class Rabilion : EnemyController
 {
     private float hpPercWhenFlee = 0.4f;
     private Animator animator;
+    private bool wasHit = false;
 
     protected override void Start()
     {
         maxHealth = 5;
         movingStrategy = WanderingStrategy.CreateComponent(gameObject, 20f);
-        //movingStrategy = ChasingStrategy.CreateComponent(gameObject, 100f);
-        //movingStrategy = FleeingStrategy.CreateComponent(gameObject, 100f);
+        
 
         animator = GetComponent<Animator>();
         base.Start();
@@ -22,9 +22,19 @@ public class Rabilion : EnemyController
         animator.SetTrigger(Consts.Hurt);
         base.TakeDamage(damage);
 
-        if (NeedToFlee())
+        if (health > 0)
         {
-            StartFleeing();
+            if (!wasHit)
+            {
+                wasHit = true;
+                Destroy(movingStrategy);
+                movingStrategy = ChasingStrategy.CreateComponent(gameObject, searchDelay: 0.5f);
+            }
+
+            if (NeedToFlee())
+            {
+                StartFleeing();
+            }
         }
     }
 
@@ -35,14 +45,14 @@ public class Rabilion : EnemyController
 
     private void StartFleeing()
     {
+        Destroy(movingStrategy);
         movingStrategy = FleeingStrategy.CreateComponent(gameObject);
     }
 
     protected override void Die()
     {
-        movingStrategy = null;
+        Destroy(movingStrategy);
         animator.SetBool(Consts.IsDead, true);
         base.Die();
-        
     }
 }
