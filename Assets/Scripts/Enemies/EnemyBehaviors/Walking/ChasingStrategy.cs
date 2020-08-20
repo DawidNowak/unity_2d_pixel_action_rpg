@@ -2,20 +2,19 @@
 using UnityEngine;
 using static Assets.Scripts.Utils.Enums;
 
-public class Aggresive : MovingObject
+public class ChasingStrategy : MovingStrategy
 {
-    public Stance stance = Stance.Aggressive;
     public float playerDetectionRange = 100f;
 
     private float searchDelay = 1f;
     private float nextSearch = 0f;
 
-    protected override void Start()
+    public override void Start()
     {
         base.Start();
     }
 
-    protected override void Update()
+    public override void Update()
     {
         switch (state)
         {
@@ -32,7 +31,7 @@ public class Aggresive : MovingObject
 
     private void ProcessStance()
     {
-        if (stance == Stance.Defensive || Time.time < nextSearch)
+        if (Time.time < nextSearch)
             return;
 
         var target = SearchForTarget();

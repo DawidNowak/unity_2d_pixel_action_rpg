@@ -1,12 +1,14 @@
 ﻿
 using UnityEngine;
 
-public class Rabilion : LivingObject
+public class Rabilion : EnemyController
 {
     private Animator animator;
 
     protected override void Start()
     {
+        movingStrategy = WanderingStrategy.CreateComponent(gameObject, 20f);
+
         animator = GetComponent<Animator>();
         base.Start();
     }

@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using static Assets.Scripts.Utils.Enums;
 
-public class MovingObject : LivingObject
+public abstract class MovingStrategy : MonoBehaviour
 {
-    public float moveSpeed = 80f;
+    public float moveSpeed = 60f;
 
     protected Animator animator;
 
@@ -11,13 +11,13 @@ public class MovingObject : LivingObject
 
     protected Vector3 target;
 
-    protected override void Start()
+    public virtual void Start()
     {
         state = WalkingState.Standing;
         animator = GetComponent<Animator>();
     }
 
-    protected virtual void Update()
+    public virtual void Update()
     {
         switch (state)
         {

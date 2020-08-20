@@ -2,17 +2,25 @@
 using UnityEngine;
 using static Assets.Scripts.Utils.Enums;
 
-public class Wandering : MovingObject
+public class WanderingStrategy : MovingStrategy
 {
     private Vector3 direction;
     private float idleTime = 2f;
     private float nextMove = 0f;
 
-    public float restDuration = 2f;
     public float moveProbability = 0.25f;
     public float moveDistance = 60f;
 
-    protected override void Update()
+    public static WanderingStrategy CreateComponent(GameObject where, float moveDistance = 60f, float moveProbability = 0.25f, float idleTime = 2f)
+    {
+        WanderingStrategy strategy = where.AddComponent<WanderingStrategy>();
+        strategy.moveDistance = moveDistance;
+        strategy.moveProbability = moveProbability;
+        strategy.idleTime = idleTime;
+        return strategy;
+    }
+
+    public override void Update()
     {
         switch (state)
         {

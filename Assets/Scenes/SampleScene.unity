@@ -123,28 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &293588316 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
-  m_PrefabInstance: {fileID: 490815874}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &293588324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293588316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f913c8429afe45f4d96fd403d83289a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxHealth: 1
-  Health: 0
-  moveSpeed: 80
-  stance: 0
-  playerDetectionRange: 100
 --- !u!1001 &490815874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -152,13 +130,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 218014982871634524, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
-      propertyPath: moveDistance
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 218014982871634524, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
+    - target: {fileID: 9095557025626409973, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -140
       objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_Name
@@ -357,13 +331,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 218014982871634524, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_Name
-      value: Rabilion (2)
+      value: Rabilion
       objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409973, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -418,13 +388,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 218014982871634524, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_Name
-      value: Rabilion (1)
+      value: Rabilion
       objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409973, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_LocalPosition.x
