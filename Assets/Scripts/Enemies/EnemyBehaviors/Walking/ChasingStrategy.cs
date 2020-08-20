@@ -15,6 +15,7 @@ public class ChasingStrategy : MovingStrategy
         strategy.playerDetectionRange = playerDetectionRange;
         strategy.acceptableDistanceFromTarget = acceptableDistanceFromPlayer;
         strategy.searchDelay = searchDelay;
+        strategy.Start();
         return strategy;
     }
 

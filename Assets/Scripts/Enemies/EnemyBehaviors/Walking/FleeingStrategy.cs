@@ -16,6 +16,7 @@ public class FleeingStrategy : MovingStrategy
         strategy.playerDetectionRange = playerDetectionRange;
         strategy.fleeDistance = fleeDistance;
         strategy.searchDelay = searchDelay;
+        strategy.Start();
         return strategy;
     }
 

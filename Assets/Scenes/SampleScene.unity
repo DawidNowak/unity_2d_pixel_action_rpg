@@ -130,10 +130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9095557025626409973, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -140
-      objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_Name
       value: Rabilion
@@ -331,6 +327,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5349922294368221404, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
+      propertyPath: maxHealth
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_Name
       value: Rabilion

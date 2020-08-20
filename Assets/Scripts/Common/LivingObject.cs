@@ -3,18 +3,18 @@ using UnityEngine;
 
 public abstract class LivingObject : MonoBehaviour
 {
-    public int MaxHealth = 1;
-    public int Health;
+    public int maxHealth = 1;
+    public int health;
 
     protected virtual void Start()
     {
-        Health = MaxHealth;
+        health = maxHealth;
     }
 
     public virtual void TakeDamage(int damage)
     {
-        Health -= damage;
-        if (Health <= 0)
+        health -= damage;
+        if (health <= 0)
         {
             Die();
         }

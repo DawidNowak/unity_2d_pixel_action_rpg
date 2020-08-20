@@ -17,6 +17,7 @@ public class WanderingStrategy : MovingStrategy
         strategy.moveDistance = moveDistance;
         strategy.moveProbability = moveProbability;
         strategy.idleTime = idleTime;
+        strategy.Start();
         return strategy;
     }
 
