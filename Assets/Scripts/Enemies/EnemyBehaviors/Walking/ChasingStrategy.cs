@@ -21,6 +21,7 @@ public class ChasingStrategy : MovingStrategy
 
     public override void Start()
     {
+        nextSearch = Time.time + 0.5f;
         base.Start();
     }
 

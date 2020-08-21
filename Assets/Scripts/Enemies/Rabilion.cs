@@ -11,15 +11,10 @@ public class Rabilion : EnemyController
         maxHealth = 5;
         hpPercWhenFlee = 0.4f;
         movingStrategy = WanderingStrategy.CreateComponent(gameObject, 20f);
-
+        attackingStrategy = MeleeStrategy.CreateComponent(gameObject, attackRate: 0.5f);
 
         animator = GetComponent<Animator>();
         base.Init();
-    }
-
-    protected override void Update()
-    {
-        base.Update();
     }
 
     public override void TakeDamage(int damage)
@@ -33,7 +28,8 @@ public class Rabilion : EnemyController
             {
                 wasHit = true;
                 Destroy(movingStrategy);
-                movingStrategy = ChasingStrategy.CreateComponent(gameObject, searchDelay: 0.5f);
+                movingStrategy = ChasingStrategy.CreateComponent(gameObject, acceptableDistanceFromPlayer: 19f, searchDelay: 0.5f);
+                movingStrategy.TargetReachedCallback += attackingStrategy.ProcessAttack;
             }
 
             if (NeedToFlee())

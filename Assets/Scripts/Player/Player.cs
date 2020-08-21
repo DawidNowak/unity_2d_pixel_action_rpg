@@ -27,7 +27,7 @@ public class Player : LivingObject
 
     protected override void Start()
     {
-        maxHealth = 10;
+        maxHealth = 5;
         animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
         base.Start();

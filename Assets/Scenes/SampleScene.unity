@@ -233,7 +233,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 100
+  orthographic size: 150
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -333,7 +333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_Name
-      value: Rabilion
+      value: Rabilion(2)
       objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409973, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -390,7 +390,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_Name
-      value: Rabilion
+      value: Rabilion(1)
       objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409973, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_LocalPosition.x

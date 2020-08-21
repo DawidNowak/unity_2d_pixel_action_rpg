@@ -1,15 +1,15 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using static Assets.Scripts.Utils.Enums;
 
 public abstract class MovingStrategy : MonoBehaviour
 {
-    public float moveSpeed = 60f;
+    public float moveSpeed = 30f;
     public float acceptableDistanceFromTarget = 0f;
+    public Action TargetReachedCallback;
 
     protected Animator animator;
-
     protected WalkingState state;
-
     protected Vector3 target;
 
     public virtual void Start()
@@ -62,6 +62,10 @@ public abstract class MovingStrategy : MonoBehaviour
         {
             animator.SetFloat(Consts.MoveSpeed, moveSpeed);
             state = WalkingState.Walking;
+        }
+        else
+        {
+            TargetReachedCallback?.Invoke();
         }
     }
     protected bool IsTargetInRange()

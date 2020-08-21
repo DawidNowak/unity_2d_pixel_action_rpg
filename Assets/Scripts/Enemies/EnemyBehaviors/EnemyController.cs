@@ -3,6 +3,7 @@
 public class EnemyController : LivingObject
 {
     protected MovingStrategy movingStrategy;
+    protected AttackingStrategy attackingStrategy;
 
     protected override void Start()
     {

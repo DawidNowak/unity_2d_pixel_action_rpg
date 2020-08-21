@@ -165,6 +165,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d76991fbf243afa42921d2a3664a8bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 1
+  health: 0
+  hpPercWhenFlee: 0
   moveSpeed: 100
   attackPosition: {fileID: 1351308499821061890}
   weaponRange: 8
