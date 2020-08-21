@@ -1,4 +1,6 @@
-﻿public class EnemyController : LivingObject
+﻿using UnityEngine;
+
+public class EnemyController : LivingObject
 {
     protected MovingStrategy movingStrategy;
 
@@ -12,7 +14,7 @@
         };
     }
 
-    void Update()
+    protected virtual void Update()
     {
         if (movingStrategy != null)
         {

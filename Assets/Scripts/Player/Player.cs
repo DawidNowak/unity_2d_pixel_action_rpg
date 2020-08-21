@@ -35,10 +35,6 @@ public class Player : LivingObject
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(2);  //override
-        }
         ProcessArming();
         ProcessAttack();
     }

@@ -17,6 +17,11 @@ public class Rabilion : EnemyController
         base.Init();
     }
 
+    protected override void Update()
+    {
+        base.Update();
+    }
+
     public override void TakeDamage(int damage)
     {
         animator.SetTrigger(Consts.Hurt);
