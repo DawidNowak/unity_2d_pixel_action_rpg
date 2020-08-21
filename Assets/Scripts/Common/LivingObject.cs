@@ -6,7 +6,14 @@ public abstract class LivingObject : MonoBehaviour
     public int maxHealth = 1;
     public int health;
 
+    public float hpPercWhenFlee = 0f;
+
     protected virtual void Start()
+    {
+        Init();
+    }
+
+    protected virtual void Init()
     {
         health = maxHealth;
     }
@@ -18,6 +25,11 @@ public abstract class LivingObject : MonoBehaviour
         {
             Die();
         }
+    }
+
+    protected bool NeedToFlee()
+    {
+        return (float)health / maxHealth <= hpPercWhenFlee;
     }
 
     protected virtual void Die()

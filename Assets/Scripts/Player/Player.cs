@@ -2,7 +2,7 @@
 using static Assets.Scripts.Utils.Enums;
 using static Assets.Scripts.Utils.Extensions;
 
-public class Player : MonoBehaviour
+public class Player : LivingObject
 {
     #region Private
     private Animator animator;
@@ -25,14 +25,20 @@ public class Player : MonoBehaviour
     public int attackDamage = 2;
     #endregion
 
-    void Awake()
+    protected override void Start()
     {
+        maxHealth = 10;
         animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
+        base.Start();
     }
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            TakeDamage(2);  //override
+        }
         ProcessArming();
         ProcessAttack();
     }
@@ -42,6 +48,18 @@ public class Player : MonoBehaviour
         ProcessInputs();
         Animate();
         Move();
+    }
+
+    public override void TakeDamage(int damage)
+    {
+        animator.SetTrigger(Consts.Hurt);
+        base.TakeDamage(damage);
+    }
+
+    protected override void Die()
+    {
+        animator.SetBool(Consts.IsDead, true);
+        base.Die();
     }
 
     private void ProcessArming()

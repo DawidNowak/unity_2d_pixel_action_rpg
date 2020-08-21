@@ -3,18 +3,18 @@ using UnityEngine;
 
 public class Rabilion : EnemyController
 {
-    private float hpPercWhenFlee = 0.4f;
     private Animator animator;
     private bool wasHit = false;
 
-    protected override void Start()
+    protected override void Init()
     {
         maxHealth = 5;
+        hpPercWhenFlee = 0.4f;
         movingStrategy = WanderingStrategy.CreateComponent(gameObject, 20f);
-        
+
 
         animator = GetComponent<Animator>();
-        base.Start();
+        base.Init();
     }
 
     public override void TakeDamage(int damage)
@@ -36,11 +36,6 @@ public class Rabilion : EnemyController
                 StartFleeing();
             }
         }
-    }
-
-    private bool NeedToFlee()
-    {
-        return (float)health / maxHealth <= hpPercWhenFlee;
     }
 
     private void StartFleeing()

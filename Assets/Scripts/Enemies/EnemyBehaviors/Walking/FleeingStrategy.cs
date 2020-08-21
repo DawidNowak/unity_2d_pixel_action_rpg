@@ -40,6 +40,7 @@ public class FleeingStrategy : MovingStrategy
         base.Update();
     }
 
+    //TODO: JAKOŚ DZIWNIE CHODZI, COŚ JEST NIE TAK Z WEKTOREM UCIECZKI (PRZECHODZI CZASEM PRZEZ PLAYERA)
     private void ProcessStance()
     {
         if (Time.time < nextSearch)
