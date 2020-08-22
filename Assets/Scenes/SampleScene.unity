@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rabilion
       objectReference: {fileID: 0}
+    - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409973, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -140
@@ -367,7 +371,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -1, y: 3.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.6158241, y: 0.060234375}
@@ -378,7 +382,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 22, y: 10}
   m_EdgeRadius: 0
 --- !u!50 &1043230014
 Rigidbody2D:
@@ -424,7 +428,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043230010}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 314b2321036d2784aaa2a47838ec746b, type: 3}
+  m_Script: {fileID: 11500000, guid: ed2c3520b84a2244d9f8eee141c14db5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 1
@@ -440,6 +444,10 @@ PrefabInstance:
     - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_Name
       value: Rabilion (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409973, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -502,6 +510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rabilion(2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409973, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -558,6 +570,10 @@ PrefabInstance:
     - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_Name
       value: Rabilion(1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9095557025626409865, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9095557025626409973, guid: f8c4d377b2bdee146a0c44338942f0bf, type: 3}
       propertyPath: m_LocalPosition.x

@@ -1,9 +1,6 @@
 ﻿
-using UnityEngine;
-
 public class Rabilion : EnemyController
 {
-    private Animator animator;
     private bool wasHit = false;
 
     protected override void Init()
@@ -13,13 +10,11 @@ public class Rabilion : EnemyController
         movingStrategy = WanderingStrategy.CreateComponent(gameObject, 20f);
         attackingStrategy = MeleeStrategy.CreateComponent(gameObject, attackRate: 0.5f);
 
-        animator = GetComponent<Animator>();
         base.Init();
     }
 
     public override void TakeDamage(int damage)
     {
-        animator.SetTrigger(Consts.Hurt);
         base.TakeDamage(damage);
 
         if (health > 0)
@@ -43,12 +38,5 @@ public class Rabilion : EnemyController
     {
         Destroy(movingStrategy);
         movingStrategy = FleeingStrategy.CreateComponent(gameObject);
-    }
-
-    protected override void Die()
-    {
-        Destroy(movingStrategy);
-        animator.SetBool(Consts.IsDead, true);
-        base.Die();
     }
 }
