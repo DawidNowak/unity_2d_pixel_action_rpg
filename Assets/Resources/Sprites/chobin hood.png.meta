@@ -1,0 +1,4837 @@
+fileFormatVersion: 2
+guid: d4c9d4b7d43bfda47819be793e9c5914
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1442425563910080636
+    second: chobin hood_0
+  - first:
+      213: -5952173685746422871
+    second: chobin hood_1
+  - first:
+      213: -7464394701925833123
+    second: chobin hood_2
+  - first:
+      213: 4829857424289485840
+    second: chobin hood_3
+  - first:
+      213: 7820246003922127049
+    second: chobin hood_4
+  - first:
+      213: 6428261656493054818
+    second: chobin hood_5
+  - first:
+      213: -915625683653354249
+    second: chobin hood_6
+  - first:
+      213: -6789369751319665312
+    second: chobin hood_7
+  - first:
+      213: 6523128388737305654
+    second: chobin hood_8
+  - first:
+      213: -6472565863038954909
+    second: chobin hood_9
+  - first:
+      213: 7170508807177989957
+    second: chobin hood_10
+  - first:
+      213: -1158666715167178238
+    second: chobin hood_11
+  - first:
+      213: -8383029434919165304
+    second: chobin hood_12
+  - first:
+      213: 1552480305521076779
+    second: chobin hood_13
+  - first:
+      213: 5145968613685176013
+    second: chobin hood_14
+  - first:
+      213: 5476587108816072384
+    second: chobin hood_15
+  - first:
+      213: -9193688035587086010
+    second: chobin hood_16
+  - first:
+      213: 6624514221530234584
+    second: chobin hood_17
+  - first:
+      213: 2828052097746808507
+    second: chobin hood_18
+  - first:
+      213: 5744714925378923627
+    second: chobin hood_19
+  - first:
+      213: -2847302826007955357
+    second: chobin hood_20
+  - first:
+      213: -6043866778268297690
+    second: chobin hood_21
+  - first:
+      213: 4171534680103491529
+    second: chobin hood_22
+  - first:
+      213: -7339952147288677452
+    second: chobin hood_23
+  - first:
+      213: 2620333258418904417
+    second: chobin hood_24
+  - first:
+      213: -8016901779856113194
+    second: chobin hood_25
+  - first:
+      213: 4018825335053613280
+    second: chobin hood_26
+  - first:
+      213: -1957340916155189310
+    second: chobin hood_27
+  - first:
+      213: 3896677934097341196
+    second: chobin hood_28
+  - first:
+      213: 4459365028101565163
+    second: chobin hood_29
+  - first:
+      213: 5056291677687862095
+    second: chobin hood_30
+  - first:
+      213: -302732279226260437
+    second: chobin hood_31
+  - first:
+      213: -6626723959274196352
+    second: chobin hood_32
+  - first:
+      213: 2521119805599354100
+    second: chobin hood_33
+  - first:
+      213: 7885193061715159663
+    second: chobin hood_34
+  - first:
+      213: 4319401574017004831
+    second: chobin hood_35
+  - first:
+      213: -7795367618969196801
+    second: chobin hood_36
+  - first:
+      213: -2255043972555920483
+    second: chobin hood_37
+  - first:
+      213: 7327735421212252038
+    second: chobin hood_38
+  - first:
+      213: 4267332583888376720
+    second: chobin hood_39
+  - first:
+      213: 7530632111235225177
+    second: chobin hood_40
+  - first:
+      213: 5469536144558054354
+    second: chobin hood_41
+  - first:
+      213: -104697619709058424
+    second: chobin hood_42
+  - first:
+      213: -5744757994429749961
+    second: chobin hood_43
+  - first:
+      213: 5002515151449422557
+    second: chobin hood_44
+  - first:
+      213: 7487998247043235916
+    second: chobin hood_45
+  - first:
+      213: 2814820568761636243
+    second: chobin hood_46
+  - first:
+      213: -7968522007381033740
+    second: chobin hood_47
+  - first:
+      213: -3987079756436816959
+    second: chobin hood_48
+  - first:
+      213: -1699863550167611366
+    second: chobin hood_49
+  - first:
+      213: -5140308378576651943
+    second: chobin hood_50
+  - first:
+      213: 4533130680585657663
+    second: chobin hood_51
+  - first:
+      213: 2229881220142449905
+    second: chobin hood_52
+  - first:
+      213: 2055949123105684524
+    second: chobin hood_53
+  - first:
+      213: -5855088414800029324
+    second: chobin hood_54
+  - first:
+      213: 2669522636838616731
+    second: chobin hood_55
+  - first:
+      213: 2500906297321308469
+    second: chobin hood_56
+  - first:
+      213: 2927965533417806690
+    second: chobin hood_57
+  - first:
+      213: -7292827514842309064
+    second: chobin hood_58
+  - first:
+      213: 4349928630493079492
+    second: chobin hood_59
+  - first:
+      213: 3523960433772619590
+    second: chobin hood_60
+  - first:
+      213: 7811179891206093647
+    second: chobin hood_61
+  - first:
+      213: -8690297719242119808
+    second: chobin hood_62
+  - first:
+      213: 3184886037133927449
+    second: chobin hood_63
+  - first:
+      213: 4586557143955300112
+    second: chobin hood_64
+  - first:
+      213: 8511951912552221764
+    second: chobin hood_65
+  - first:
+      213: -7636941310896501816
+    second: chobin hood_66
+  - first:
+      213: 5339262433486700499
+    second: chobin hood_67
+  - first:
+      213: -6238303880235149250
+    second: chobin hood_68
+  - first:
+      213: 7831581146371911013
+    second: chobin hood_69
+  - first:
+      213: 6628348632765585329
+    second: chobin hood_70
+  - first:
+      213: 3842552306210391435
+    second: chobin hood_71
+  - first:
+      213: 7642736387278776257
+    second: chobin hood_72
+  - first:
+      213: -8376385600977255337
+    second: chobin hood_73
+  - first:
+      213: 3664494190941680626
+    second: chobin hood_74
+  - first:
+      213: 3884350770963538653
+    second: chobin hood_75
+  - first:
+      213: -6178427663251933379
+    second: chobin hood_76
+  - first:
+      213: 4335438905305042037
+    second: chobin hood_77
+  - first:
+      213: 1935571667177214836
+    second: chobin hood_78
+  - first:
+      213: -1617493030903464299
+    second: chobin hood_79
+  - first:
+      213: 7926652360322397764
+    second: chobin hood_80
+  - first:
+      213: -7473304717531045894
+    second: chobin hood_81
+  - first:
+      213: -8154192749174339301
+    second: chobin hood_82
+  - first:
+      213: 5848557194601345833
+    second: chobin hood_83
+  - first:
+      213: 4935654450489882074
+    second: chobin hood_84
+  - first:
+      213: 3623078816695198867
+    second: chobin hood_85
+  - first:
+      213: 8271705422959787474
+    second: chobin hood_86
+  - first:
+      213: -1953787586154446042
+    second: chobin hood_87
+  - first:
+      213: -6313450969754924273
+    second: chobin hood_88
+  - first:
+      213: -7976848483283196998
+    second: chobin hood_89
+  - first:
+      213: -2933400906103286675
+    second: chobin hood_90
+  - first:
+      213: 522275223817867038
+    second: chobin hood_91
+  - first:
+      213: -2461678785145150847
+    second: chobin hood_92
+  - first:
+      213: 5460057033356342625
+    second: chobin hood_93
+  - first:
+      213: 4572933564691543277
+    second: chobin hood_94
+  - first:
+      213: -7507487383928994362
+    second: chobin hood_95
+  - first:
+      213: -5700194132014373992
+    second: chobin hood_96
+  - first:
+      213: 1624989528330704408
+    second: chobin hood_97
+  - first:
+      213: -4393399924198646995
+    second: chobin hood_98
+  - first:
+      213: 7894347523185361885
+    second: chobin hood_99
+  - first:
+      213: 1773414733079648738
+    second: chobin hood_100
+  - first:
+      213: -1060519903682477105
+    second: chobin hood_101
+  - first:
+      213: 3206390217360202489
+    second: chobin hood_102
+  - first:
+      213: -6240045383617275062
+    second: chobin hood_103
+  - first:
+      213: -4267380311308697871
+    second: chobin hood_104
+  - first:
+      213: -5789547772875560953
+    second: chobin hood_105
+  - first:
+      213: 6678862061639077913
+    second: chobin hood_106
+  - first:
+      213: -6609051095918840478
+    second: chobin hood_107
+  - first:
+      213: 7987766545833365337
+    second: chobin hood_108
+  - first:
+      213: -6790060433422971513
+    second: chobin hood_109
+  - first:
+      213: 6799762810548076539
+    second: chobin hood_110
+  - first:
+      213: -8717365852228179034
+    second: chobin hood_111
+  - first:
+      213: 85114873624486387
+    second: chobin hood_112
+  - first:
+      213: -3878601313084214741
+    second: chobin hood_113
+  - first:
+      213: 7413188914476749946
+    second: chobin hood_114
+  - first:
+      213: 8671521735149838115
+    second: chobin hood_115
+  - first:
+      213: 5441010576678299482
+    second: chobin hood_116
+  - first:
+      213: 8143403131503310439
+    second: chobin hood_117
+  - first:
+      213: 1238473589802731302
+    second: chobin hood_118
+  - first:
+      213: -4181924527568421540
+    second: chobin hood_119
+  - first:
+      213: 2300830156835624393
+    second: chobin hood_120
+  - first:
+      213: -1260585378616366232
+    second: chobin hood_121
+  - first:
+      213: 763183232924720941
+    second: chobin hood_122
+  - first:
+      213: -297317589293634693
+    second: chobin hood_123
+  - first:
+      213: -2111152741093228297
+    second: chobin hood_124
+  - first:
+      213: 2270961883867815899
+    second: chobin hood_125
+  - first:
+      213: -8427839046497638293
+    second: chobin hood_126
+  - first:
+      213: -5502256403320297537
+    second: chobin hood_127
+  - first:
+      213: 3429437770956331849
+    second: chobin hood_128
+  - first:
+      213: 4473764991318490916
+    second: chobin hood_129
+  - first:
+      213: -1791946321982935081
+    second: chobin hood_130
+  - first:
+      213: -7317411904109977305
+    second: chobin hood_131
+  - first:
+      213: 2201814163209354664
+    second: chobin hood_132
+  - first:
+      213: 1496094438864081786
+    second: chobin hood_133
+  - first:
+      213: -5567255985303857288
+    second: chobin hood_134
+  - first:
+      213: 6996524045037324653
+    second: chobin hood_135
+  - first:
+      213: 8889511521407953921
+    second: chobin hood_136
+  - first:
+      213: 4916414691728268970
+    second: chobin hood_137
+  - first:
+      213: -455633932349782772
+    second: chobin hood_138
+  - first:
+      213: -1066602621274336595
+    second: chobin hood_139
+  - first:
+      213: -5914164804134946661
+    second: chobin hood_140
+  - first:
+      213: 6746333058882425964
+    second: chobin hood_141
+  - first:
+      213: -4312199261410088891
+    second: chobin hood_142
+  - first:
+      213: -5155910536154815437
+    second: chobin hood_143
+  - first:
+      213: -249773667997004520
+    second: chobin hood_144
+  - first:
+      213: -3889785319951979445
+    second: chobin hood_145
+  - first:
+      213: -8156408089183109493
+    second: chobin hood_146
+  - first:
+      213: -1757663905538136864
+    second: chobin hood_147
+  - first:
+      213: -8128976316284321601
+    second: chobin hood_148
+  - first:
+      213: -2412130449005159399
+    second: chobin hood_149
+  - first:
+      213: -3968207516109498493
+    second: chobin hood_150
+  - first:
+      213: 7228682536467346286
+    second: chobin hood_151
+  - first:
+      213: 269528275887897543
+    second: chobin hood_152
+  - first:
+      213: -5057962819408059406
+    second: chobin hood_153
+  - first:
+      213: 2769688532044785307
+    second: chobin hood_154
+  - first:
+      213: 2796144959030821853
+    second: chobin hood_155
+  - first:
+      213: -9176303613903263340
+    second: chobin hood_156
+  - first:
+      213: 8872872175558425926
+    second: chobin hood_157
+  - first:
+      213: 3361537876062596743
+    second: chobin hood_158
+  - first:
+      213: -1389622968517041522
+    second: chobin hood_159
+  - first:
+      213: 4408311813005380143
+    second: chobin hood_160
+  - first:
+      213: 6652880990881106195
+    second: chobin hood_161
+  - first:
+      213: 2714377806421032294
+    second: chobin hood_162
+  - first:
+      213: -8435058628717803072
+    second: chobin hood_163
+  - first:
+      213: 1734859175747733620
+    second: chobin hood_164
+  - first:
+      213: -1277398022189735479
+    second: chobin hood_165
+  - first:
+      213: 2787234214640079027
+    second: chobin hood_166
+  - first:
+      213: 2475853754658546270
+    second: chobin hood_167
+  - first:
+      213: -5624591797242667922
+    second: chobin hood_168
+  - first:
+      213: 1520629194921026523
+    second: chobin hood_169
+  - first:
+      213: 1234779581014980715
+    second: chobin hood_170
+  - first:
+      213: 7783800339491775654
+    second: chobin hood_171
+  - first:
+      213: 8716690825723897782
+    second: chobin hood_172
+  - first:
+      213: -2390957178219282117
+    second: chobin hood_173
+  - first:
+      213: -6978543650305809890
+    second: chobin hood_174
+  - first:
+      213: 2291845609621294244
+    second: chobin hood_175
+  - first:
+      213: 9108372743391636282
+    second: chobin hood_176
+  - first:
+      213: 7726990112223170642
+    second: chobin hood_177
+  - first:
+      213: -1143221774662744937
+    second: chobin hood_178
+  - first:
+      213: -8621079634033542676
+    second: chobin hood_179
+  - first:
+      213: 972349807040537844
+    second: chobin hood_180
+  - first:
+      213: 2966139693405846332
+    second: chobin hood_181
+  - first:
+      213: -4477179487936510617
+    second: chobin hood_182
+  - first:
+      213: -7765155475214458032
+    second: chobin hood_183
+  - first:
+      213: -7867146748050790471
+    second: chobin hood_184
+  - first:
+      213: 363135887338317977
+    second: chobin hood_185
+  - first:
+      213: 2057305976818844430
+    second: chobin hood_186
+  - first:
+      213: -2718988820959399332
+    second: chobin hood_187
+  - first:
+      213: 7484178494954805261
+    second: chobin hood_188
+  - first:
+      213: 1752778601662598301
+    second: chobin hood_189
+  - first:
+      213: 6597458831452185576
+    second: chobin hood_190
+  - first:
+      213: 1048810283043484785
+    second: chobin hood_191
+  - first:
+      213: 6163078058611167369
+    second: chobin hood_192
+  - first:
+      213: 489343771314356226
+    second: chobin hood_193
+  - first:
+      213: 7384637761829899936
+    second: chobin hood_194
+  - first:
+      213: 8809814414969322707
+    second: chobin hood_195
+  - first:
+      213: -4551255402078494117
+    second: chobin hood_196
+  - first:
+      213: -7648949819566643998
+    second: chobin hood_197
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chobin hood_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1315
+        width: 26
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6158241, y: 0.060234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c788dc77866840410800000000000000
+      internalID: 1442425563910080636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1315
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.52568, y: 0.06261145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab28ab9191a56da0800000000000000
+      internalID: -5952173685746422871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1315
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.519126, y: 0.06251526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5627601194296890800000000000000
+      internalID: -7464394701925833123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1315
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5272985, y: 0.06409222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014de8adcb9170340800000000000000
+      internalID: 4829857424289485840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1273
+        width: 23
+        height: 28
+      alignment: 9
+      pivot: {x: 0.49692735, y: 0.19685146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c842ff9e48178c60800000000000000
+      internalID: 7820246003922127049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1273
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5226886, y: 0.20287181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b588e0be5c53950800000000000000
+      internalID: 6428261656493054818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1273
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5162063, y: 0.20743503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc1e9aba4b0b43f0800000000000000
+      internalID: -915625683653354249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1273
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5210677, y: 0.20287181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0652fcbce2057c1a0800000000000000
+      internalID: -6789369751319665312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1234
+        width: 22
+        height: 24
+      alignment: 9
+      pivot: {x: 0.61019224, y: 0.0586497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c04f265bec68a50800000000000000
+      internalID: 6523128388737305654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1234
+        width: 23
+        height: 24
+      alignment: 9
+      pivot: {x: 0.584202, y: 0.061706543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3625e3404a3dc26a0800000000000000
+      internalID: -6472565863038954909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_10
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1234
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5615266, y: 0.06566321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f67a6e4c3c28360800000000000000
+      internalID: 7170508807177989957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1234
+        width: 23
+        height: 24
+      alignment: 9
+      pivot: {x: 0.58450186, y: 0.0635376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202446de2c69befe0800000000000000
+      internalID: -1158666715167178238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1200
+        width: 23
+        height: 24
+      alignment: 9
+      pivot: {x: 0.41163296, y: 0.06218974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882eff5e42f79ab80800000000000000
+      internalID: -8383029434919165304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1200
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.438975, y: 0.063683555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2aaf5bcc948b8510800000000000000
+      internalID: 1552480305521076779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_14
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1200
+        width: 23
+        height: 24
+      alignment: 9
+      pivot: {x: 0.41532964, y: 0.05978902}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6a30c80372a6740800000000000000
+      internalID: 5145968613685176013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_15
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1200
+        width: 22
+        height: 24
+      alignment: 9
+      pivot: {x: 0.3848336, y: 0.062093098}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce277295feb00c40800000000000000
+      internalID: 5476587108816072384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1156
+        width: 24
+        height: 27
+      alignment: 9
+      pivot: {x: 0.52068967, y: 0.051925093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649a21f1175796080800000000000000
+      internalID: -9193688035587086010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1156
+        width: 23
+        height: 26
+      alignment: 9
+      pivot: {x: 0.543598, y: 0.056011494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de35d716900feb50800000000000000
+      internalID: 6624514221530234584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_18
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1156
+        width: 23
+        height: 27
+      alignment: 9
+      pivot: {x: 0.45450062, y: 0.056134257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe2f7436624f3720800000000000000
+      internalID: 2828052097746808507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1156
+        width: 23
+        height: 26
+      alignment: 9
+      pivot: {x: 0.4551133, y: 0.054457445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c681fa9c359bf40800000000000000
+      internalID: 5744714925378923627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1117
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5200822, y: 0.060251873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36874d75a295c78d0800000000000000
+      internalID: -2847302826007955357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_21
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1117
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.49711707, y: 0.063439414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626988bdf2fdf1ca0800000000000000
+      internalID: -6043866778268297690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_22
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1117
+        width: 21
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5947469, y: 0.058828127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c79ac790b444e930800000000000000
+      internalID: 4171534680103491529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_23
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1117
+        width: 20
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5719948, y: 0.05646691}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b32e782960432a90800000000000000
+      internalID: -7339952147288677452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1078
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.55788153, y: 0.024605129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d5335273b4d5420800000000000000
+      internalID: 2620333258418904417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1044
+        width: 22
+        height: 24
+      alignment: 9
+      pivot: {x: 0.43119943, y: 0.019195557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1ca7c7e4e3eb090800000000000000
+      internalID: -8016901779856113194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1078
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.561388, y: 0.02135169}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8f53e795cb5c730800000000000000
+      internalID: 4018825335053613280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_27
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1077
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5850193, y: 0.023692256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c77b34aec026d4e0800000000000000
+      internalID: -1957340916155189310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_28
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1078
+        width: 22
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5690037, y: 0.02108256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b99f18fe7c31630800000000000000
+      internalID: 3896677934097341196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_29
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1043
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.41261426, y: 0.06168797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea2bc7cdd8d2ed30800000000000000
+      internalID: 4459365028101565163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_30
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1044
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.436587, y: 0.019849693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f435951dd7e8b2640800000000000000
+      internalID: 5056291677687862095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_31
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1044
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.43671736, y: 0.02153745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24aca2989a7ccbf0800000000000000
+      internalID: -302732279226260437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_32
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 994
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5000008, y: 0.014992269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08234ee3ba52904a0800000000000000
+      internalID: -6626723959274196352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_33
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 989
+        width: 24
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5220585, y: 0.18440755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc83f01b11dcf220800000000000000
+      internalID: 2521119805599354100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_34
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 993
+        width: 29
+        height: 30
+      alignment: 9
+      pivot: {x: 0.6359821, y: 0.049031574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a28e4ef45dd6d60800000000000000
+      internalID: 7885193061715159663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 923
+        width: 24
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5228198, y: 0.009888967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15fb8da8d891fb30800000000000000
+      internalID: 4319401574017004831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_36
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 993
+        width: 29
+        height: 30
+      alignment: 9
+      pivot: {x: 0.361497, y: 0.049460854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff622c1c37a41d390800000000000000
+      internalID: -7795367618969196801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_37
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 923
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5221596, y: 0.016481526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b2be6647974b0e0800000000000000
+      internalID: -2255043972555920483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_38
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 923
+        width: 24
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5162074, y: 0.010794899}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6875765aa8851b560800000000000000
+      internalID: 7327735421212252038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_39
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 864
+        width: 24
+        height: 45
+      alignment: 9
+      pivot: {x: 0.51841897, y: 0.12156304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093dd11306c983b30800000000000000
+      internalID: 4267332583888376720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_40
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 923
+        width: 24
+        height: 44
+      alignment: 9
+      pivot: {x: 0.52315587, y: 0.010636763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9565354910e228860800000000000000
+      internalID: 7530632111235225177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_41
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 864
+        width: 24
+        height: 27
+      alignment: 9
+      pivot: {x: 0.52209115, y: 0.20553024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbda860522b7eb40800000000000000
+      internalID: 5469536144558054354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_42
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 864
+        width: 24
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5197856, y: 0.13592082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882a960d11a0c8ef0800000000000000
+      internalID: -104697619709058424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_43
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 801
+        width: 29
+        height: 49
+      alignment: 9
+      pivot: {x: 0.63517237, y: 0.050207023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735ed658a058640b0800000000000000
+      internalID: -5744757994429749961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_44
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 864
+        width: 24
+        height: 41
+      alignment: 9
+      pivot: {x: 0.52284557, y: 0.13641208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddaf6a996018c6540800000000000000
+      internalID: 5002515151449422557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_45
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 801
+        width: 29
+        height: 31
+      alignment: 9
+      pivot: {x: 0.6362352, y: 0.07976901}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4082c98bb6bae760800000000000000
+      internalID: 7487998247043235916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 801
+        width: 29
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6355522, y: 0.054942492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395108bc460401720800000000000000
+      internalID: 2814820568761636243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_47
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 801
+        width: 29
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6362894, y: 0.055270724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcbb2d047f1a6190800000000000000
+      internalID: -7968522007381033740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_48
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 738
+        width: 29
+        height: 45
+      alignment: 9
+      pivot: {x: 0.3613791, y: 0.05466987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbbe62061c0ba8c0800000000000000
+      internalID: -3987079756436816959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_49
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 738
+        width: 29
+        height: 49
+      alignment: 9
+      pivot: {x: 0.36137918, y: 0.04979846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1800ad7b1fd868e0800000000000000
+      internalID: -1699863550167611366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_50
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 738
+        width: 29
+        height: 45
+      alignment: 9
+      pivot: {x: 0.36000007, y: 0.05422499}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95979f2a3c4f9a8b0800000000000000
+      internalID: -5140308378576651943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_51
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 738
+        width: 29
+        height: 31
+      alignment: 9
+      pivot: {x: 0.36137968, y: 0.07935752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d9bb0265ae8ee30800000000000000
+      internalID: 4533130680585657663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_52
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 700
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.51398236, y: 0.23535156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4c7e1c72122fe10800000000000000
+      internalID: 2229881220142449905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 701
+        width: 27
+        height: 22
+      alignment: 9
+      pivot: {x: 0.46222207, y: 0.20454822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c7df6a5d2388c10800000000000000
+      internalID: 2055949123105684524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_54
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 703
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5173332, y: 0.10956872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479d65bbb1c8ebea0800000000000000
+      internalID: -5855088414800029324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_55
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 701
+        width: 27
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5375666, y: 0.204465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e31a8c1bc0c0520800000000000000
+      internalID: 2669522636838616731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_56
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 654
+        width: 22
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5218179, y: 0.053335685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531cf5ce60105b220800000000000000
+      internalID: 2500906297321308469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_57
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 654
+        width: 22
+        height: 24
+      alignment: 9
+      pivot: {x: 0.51999974, y: 0.0591685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b94fdb32932a820800000000000000
+      internalID: 2927965533417806690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_58
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 654
+        width: 22
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5198836, y: 0.05670392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e11a9a30caaca90800000000000000
+      internalID: -7292827514842309064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_59
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 654
+        width: 20
+        height: 30
+      alignment: 9
+      pivot: {x: 0.47376022, y: 0.050201416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c767d2ea0d0e5c30800000000000000
+      internalID: 4349928630493079492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_60
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 654
+        width: 20
+        height: 28
+      alignment: 9
+      pivot: {x: 0.46858674, y: 0.05567932}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6476c81085f97e030800000000000000
+      internalID: 3523960433772619590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_61
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 654
+        width: 20
+        height: 25
+      alignment: 9
+      pivot: {x: 0.4680008, y: 0.062402345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b7304c9b2e66c60800000000000000
+      internalID: 7811179891206093647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_62
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 654
+        width: 21
+        height: 29
+      alignment: 9
+      pivot: {x: 0.4492086, y: 0.051705196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085af2c744cd56780800000000000000
+      internalID: -8690297719242119808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_63
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 605
+        width: 26
+        height: 37
+      alignment: 9
+      pivot: {x: 0.51686096, y: 0.14865194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914287df9fcf23c20800000000000000
+      internalID: 3184886037133927449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_64
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 654
+        width: 21
+        height: 29
+      alignment: 9
+      pivot: {x: 0.44952393, y: 0.051035915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f5c7bfb69b6af30800000000000000
+      internalID: 4586557143955300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_65
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 654
+        width: 21
+        height: 29
+      alignment: 9
+      pivot: {x: 0.4476202, y: 0.051726244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cc1ec8a27802670800000000000000
+      internalID: 8511951912552221764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_66
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 653
+        width: 22
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5218187, y: 0.05357361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb02890752240690800000000000000
+      internalID: -7636941310896501816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_67
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 606
+        width: 28
+        height: 31
+      alignment: 9
+      pivot: {x: 0.44571406, y: 0.14645681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfff8605eed81a40800000000000000
+      internalID: 5339262433486700499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_68
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 606
+        width: 25
+        height: 29
+      alignment: 9
+      pivot: {x: 0.49839997, y: 0.15448418}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3894a14ca71d69a0800000000000000
+      internalID: -6238303880235149250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_69
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 606
+        width: 21
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5933333, y: 0.13176593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56de4232f8d5fac60800000000000000
+      internalID: 7831581146371911013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_70
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 605
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 0.54347825, y: 0.1666907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7507786ff9cfb50800000000000000
+      internalID: 6628348632765585329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_71
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 605
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1718769}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85478ab6fc735530800000000000000
+      internalID: 3842552306210391435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_72
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 605
+        width: 23
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5397803, y: 0.18156739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c724b35044701a60800000000000000
+      internalID: 7642736387278776257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_73
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 605
+        width: 24
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5608342, y: 0.15657261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754cd080da911cb80800000000000000
+      internalID: -8376385600977255337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_74
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 605
+        width: 24
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5608342, y: 0.15543039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3bf842d06ead230800000000000000
+      internalID: 3664494190941680626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_75
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 606
+        width: 28
+        height: 31
+      alignment: 9
+      pivot: {x: 0.44643074, y: 0.14516523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2eb4e227cf7e530800000000000000
+      internalID: 3884350770963538653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_76
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 564
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5149997, y: 0.021820068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37fb6566c0d14aa0800000000000000
+      internalID: -6178427663251933379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_77
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 563
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.51916665, y: 0.06522004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c8d18d6b29a2c30800000000000000
+      internalID: 4335438905305042037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_78
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 564
+        width: 26
+        height: 22
+      alignment: 9
+      pivot: {x: 0.47846162, y: 0.020912863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473986b1d288cda10800000000000000
+      internalID: 1935571667177214836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_79
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 564
+        width: 31
+        height: 24
+      alignment: 9
+      pivot: {x: 0.43548387, y: 0.021670023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e345288a28d89e0800000000000000
+      internalID: -1617493030903464299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_80
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 564
+        width: 28
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47714287, y: 0.018335978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44637031350210e60800000000000000
+      internalID: 7926652360322397764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_81
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 563
+        width: 26
+        height: 25
+      alignment: 9
+      pivot: {x: 0.51615435, y: 0.05680176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff9f4564fc794890800000000000000
+      internalID: -7473304717531045894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_82
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 564
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.51846194, y: 0.018338522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19c56bb5ec76de80800000000000000
+      internalID: -8154192749174339301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_83
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 564
+        width: 27
+        height: 25
+      alignment: 9
+      pivot: {x: 0.50000113, y: 0.020803222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923b4c018cf3a2150800000000000000
+      internalID: 5848557194601345833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_84
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 564
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.51769316, y: 0.017501831}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5768f8297fe7440800000000000000
+      internalID: 4935654450489882074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_85
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 564
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0.52333575, y: 0.022732822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3942c56ecf2c74230800000000000000
+      internalID: 3623078816695198867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_86
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 517
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0.4799997, y: 0.021822842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddb03eb1400bc270800000000000000
+      internalID: 8271705422959787474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_87
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 517
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47999984, y: 0.019170126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62342b0ca80c2e4e0800000000000000
+      internalID: -1953787586154446042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_88
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 517
+        width: 27
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.019206543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b89e80bcd1268a0800000000000000
+      internalID: -6313450969754924273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_89
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 517
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.48230803, y: 0.019170126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3aace419a8c4190800000000000000
+      internalID: -7976848483283196998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_90
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 454
+        width: 21
+        height: 39
+      alignment: 9
+      pivot: {x: 0.44984072, y: 0.012643667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6497efea677a47d0800000000000000
+      internalID: -2933400906103286675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_91
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 516
+        width: 26
+        height: 25
+      alignment: 9
+      pivot: {x: 0.48076922, y: 0.05760254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fc6a68c8e7f3700800000000000000
+      internalID: 522275223817867038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_92
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 454
+        width: 25
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5376001, y: 0.011163756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182ee4cff2c56ddd0800000000000000
+      internalID: -2461678785145150847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_93
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 517
+        width: 28
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5199999, y: 0.020835876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165f39671f406cb40800000000000000
+      internalID: 5460057033356342625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_94
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 454
+        width: 33
+        height: 43
+      alignment: 9
+      pivot: {x: 0.64969707, y: 0.010234035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de476e049d2567f30800000000000000
+      internalID: 4572933564691543277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_95
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 517
+        width: 31
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5638713, y: 0.02000173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c58f2d200c00d790800000000000000
+      internalID: -7507487383928994362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_96
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 454
+        width: 25
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5376001, y: 0.010698895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893648a43a7d4e0b0800000000000000
+      internalID: -5700194132014373992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_97
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 517
+        width: 26
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5146156, y: 0.019092906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81691efcd5f1d8610800000000000000
+      internalID: 1624989528330704408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_98
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 454
+        width: 21
+        height: 39
+      alignment: 9
+      pivot: {x: 0.45047724, y: 0.011283679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b59e1db028703c0800000000000000
+      internalID: -4393399924198646995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_99
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 516
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.47750092, y: 0.06261145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3c2fc0f3b5e8d60800000000000000
+      internalID: 7894347523185361885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_100
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 517
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0.48083496, y: 0.021820068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e918a4cd4f6c9810800000000000000
+      internalID: 1773414733079648738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_101
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 454
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.4730011, y: 0.014484274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc346c734c64841f0800000000000000
+      internalID: -1060519903682477105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_102
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 454
+        width: 20
+        height: 25
+      alignment: 9
+      pivot: {x: 0.47200316, y: 0.017602539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fada0d1ae26f7c20800000000000000
+      internalID: 3206390217360202489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_103
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 454
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.45143056, y: 0.015716553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b1d27e8c7e669a0800000000000000
+      internalID: -6240045383617275062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_104
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 454
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.45143056, y: 0.016430447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fef2f6673837c4c0800000000000000
+      internalID: -4267380311308697871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_105
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 454
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.45143056, y: 0.016430447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708299399f467afa0800000000000000
+      internalID: -5789547772875560953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_106
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 454
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.45143056, y: 0.01500157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91094dfa8a510bc50800000000000000
+      internalID: 6678862061639077913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_107
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 453
+        width: 22
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5200029, y: 0.017779315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265f9556b0fe744a0800000000000000
+      internalID: -6609051095918840478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_108
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 453
+        width: 22
+        height: 24
+      alignment: 9
+      pivot: {x: 0.522727, y: 0.017501831}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f85293a5f3ade60800000000000000
+      internalID: 7987766545833365337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_109
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 454
+        width: 22
+        height: 26
+      alignment: 9
+      pivot: {x: 0.521818, y: 0.016925517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d8366d20cd4c1a0800000000000000
+      internalID: -6790060433422971513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_110
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 454
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.47200012, y: 0.015863879}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff31afdf3c9d5e50800000000000000
+      internalID: 6799762810548076539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_111
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 394
+        width: 22
+        height: 49
+      alignment: 9
+      pivot: {x: 0.4751691, y: 0.09019626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aba1d8a1f1b50780800000000000000
+      internalID: -8717365852228179034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_112
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 394
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.39151192, y: 0.09253502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f16d7fc6836e2100800000000000000
+      internalID: 85114873624486387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_113
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 394
+        width: 22
+        height: 49
+      alignment: 9
+      pivot: {x: 0.47545555, y: 0.090613544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22704cc7a07c2ac0800000000000000
+      internalID: -3878601313084214741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_114
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 454
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4523766, y: 0.013513565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74104c7a00f0e660800000000000000
+      internalID: 7413188914476749946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_115
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 454
+        width: 20
+        height: 30
+      alignment: 9
+      pivot: {x: 0.47240907, y: 0.015049235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f5fad031f675870800000000000000
+      internalID: 8671521735149838115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_116
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 395
+        width: 25
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5007997, y: 0.12214442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57ad02ba4a528b40800000000000000
+      internalID: 5441010576678299482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_117
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 395
+        width: 21
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5933333, y: 0.10606246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766fe04a00e230170800000000000000
+      internalID: 8143403131503310439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_118
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 394
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5426085, y: 0.13875294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62705ef0b21ff2110800000000000000
+      internalID: 1238473589802731302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_119
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 394
+        width: 20
+        height: 45
+      alignment: 9
+      pivot: {x: 0.52200013, y: 0.099556476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d7ac88cc1d6f5c0800000000000000
+      internalID: -4181924527568421540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_120
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 340
+        width: 29
+        height: 43
+      alignment: 9
+      pivot: {x: 0.42922658, y: 0.011571839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c591ba56d03eef10800000000000000
+      internalID: 2300830156835624393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_121
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 340
+        width: 37
+        height: 42
+      alignment: 9
+      pivot: {x: 0.3385125, y: 0.010586693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b258ae640818ee0800000000000000
+      internalID: -1260585378616366232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_122
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 340
+        width: 29
+        height: 43
+      alignment: 9
+      pivot: {x: 0.43103555, y: 0.011629326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f13095b1f579a00800000000000000
+      internalID: 763183232924720941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_123
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 394
+        width: 20
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5239166, y: 0.0989034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b6da05a37bfdbf0800000000000000
+      internalID: -297317589293634693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_124
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 394
+        width: 20
+        height: 37
+      alignment: 9
+      pivot: {x: 0.52545166, y: 0.121517695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0cb8074cda3b2e0800000000000000
+      internalID: -2111152741093228297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_125
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 394
+        width: 23
+        height: 34
+      alignment: 9
+      pivot: {x: 0.54174143, y: 0.13235652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf94622dc3148f10800000000000000
+      internalID: 2270961883867815899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_126
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 394
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 0.54174006, y: 0.13697122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6867513a0d4a0b80800000000000000
+      internalID: -8427839046497638293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_127
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 394
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5426105, y: 0.14451747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7a9f014fe04a3b0800000000000000
+      internalID: -5502256403320297537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_128
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 394
+        width: 24
+        height: 36
+      alignment: 9
+      pivot: {x: 0.56250256, y: 0.1250017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bd8259b7fc79f20800000000000000
+      internalID: 3429437770956331849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_129
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 394
+        width: 24
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5602061, y: 0.13142036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ffd1c7e81061e30800000000000000
+      internalID: 4473764991318490916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_130
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 394
+        width: 24
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5616684, y: 0.12555695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfa3a5705ab127e0800000000000000
+      internalID: -1791946321982935081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_131
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 394
+        width: 24
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5606384, y: 0.13100478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7216f4c74a4537a90800000000000000
+      internalID: -7317411904109977305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_132
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 395
+        width: 28
+        height: 30
+      alignment: 9
+      pivot: {x: 0.44612774, y: 0.11702881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad7483d05a6e8e10800000000000000
+      internalID: 2201814163209354664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_133
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 339
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5191664, y: 0.06434963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a735eea27f133c410800000000000000
+      internalID: 1496094438864081786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_134
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 340
+        width: 26
+        height: 22
+      alignment: 9
+      pivot: {x: 0.47846133, y: 0.020001499}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877db4e8d222db2b0800000000000000
+      internalID: -5567255985303857288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_135
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 340
+        width: 31
+        height: 24
+      alignment: 9
+      pivot: {x: 0.43677446, y: 0.019168854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69cdeebc85a81160800000000000000
+      internalID: 6996524045037324653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_136
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 340
+        width: 27
+        height: 39
+      alignment: 9
+      pivot: {x: 0.46034354, y: 0.011384621}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c634c41a3ed5b70800000000000000
+      internalID: 8889511521407953921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_137
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 340
+        width: 27
+        height: 39
+      alignment: 9
+      pivot: {x: 0.46415427, y: 0.011817345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae99f42d1d9a3440800000000000000
+      internalID: 4916414691728268970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_138
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 279
+        width: 27
+        height: 39
+      alignment: 9
+      pivot: {x: 0.534816, y: 0.011796217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c054da24a534da9f0800000000000000
+      internalID: -455633932349782772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_139
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 340
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46419498, y: 0.012838924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2517a219aa231f0800000000000000
+      internalID: -1066602621274336595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_140
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 279
+        width: 29
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5676164, y: 0.010905421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b983b6af17aaceda0800000000000000
+      internalID: -5914164804134946661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_141
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 340
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.4487956, y: 0.02075831}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6459276c2acf9d50800000000000000
+      internalID: 6746333058882425964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_142
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 279
+        width: 37
+        height: 42
+      alignment: 9
+      pivot: {x: 0.6610817, y: 0.011905489}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54823f66e9df724c0800000000000000
+      internalID: -4312199261410088891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_143
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 340
+        width: 29
+        height: 24
+      alignment: 9
+      pivot: {x: 0.46566036, y: 0.020745596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3346cce3fa68278b0800000000000000
+      internalID: -5155910536154815437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_144
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 279
+        width: 29
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5662442, y: 0.010309974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dcacc1c20a88cf0800000000000000
+      internalID: -249773667997004520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_145
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 340
+        width: 27
+        height: 24
+      alignment: 9
+      pivot: {x: 0.49926078, y: 0.018334707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cabb74cd4b40ac0800000000000000
+      internalID: -3889785319951979445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_146
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 279
+        width: 27
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5357937, y: 0.011799348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e3e11be0e9ece80800000000000000
+      internalID: -8156408089183109493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_147
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 340
+        width: 27
+        height: 25
+      alignment: 9
+      pivot: {x: 0.50000226, y: 0.016385498}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4afdb8df58b97e0800000000000000
+      internalID: -1757663905538136864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_148
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 340
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.51573765, y: 0.017339071}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb04f480c13103f80800000000000000
+      internalID: -8128976316284321601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_149
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 340
+        width: 27
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5018559, y: 0.019001465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cd42bf224668ed0800000000000000
+      internalID: -2412130449005159399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_150
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 340
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.51846313, y: 0.02000173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387124fd9481ee8c0800000000000000
+      internalID: -3968207516109498493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_151
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 279
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47846127, y: 0.014167786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63b43cb770715460800000000000000
+      internalID: 7228682536467346286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_152
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 279
+        width: 27
+        height: 25
+      alignment: 9
+      pivot: {x: 0.49624324, y: 0.018258058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbb835f98e8db300800000000000000
+      internalID: 269528275887897543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_153
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 279
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47923103, y: 0.018334707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3ac0e2d918ec9b0800000000000000
+      internalID: -5057962819408059406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_154
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 279
+        width: 27
+        height: 25
+      alignment: 9
+      pivot: {x: 0.49464077, y: 0.015432129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96a003ab09ef6620800000000000000
+      internalID: 2769688532044785307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_155
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 279
+        width: 27
+        height: 24
+      alignment: 9
+      pivot: {x: 0.50077313, y: 0.016520182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3088f8607edc620800000000000000
+      internalID: 2796144959030821853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_156
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 279
+        width: 29
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5324139, y: 0.018334707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499a9263b7837a080800000000000000
+      internalID: -9176303613903263340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_157
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 279
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5480001, y: 0.02000173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d7b91bb36c22b70800000000000000
+      internalID: 8872872175558425926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_158
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 279
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5362967, y: 0.012942146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e6bb953e496ae20800000000000000
+      internalID: 3361537876062596743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_159
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 279
+        width: 31
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5307735, y: 0.020868937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8261ddc54117bce0800000000000000
+      internalID: -1389622968517041522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_160
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 279
+        width: 26
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5169255, y: 0.019092906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a0859dc387d2d30800000000000000
+      internalID: 4408311813005380143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_161
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 278
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.47750092, y: 0.06434963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319ca624308c35c50800000000000000
+      internalID: 6652880990881106195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_162
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 228
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5355553, y: 0.06347988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dfde9cb386ba520800000000000000
+      internalID: 2714377806421032294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_163
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 228
+        width: 26
+        height: 25
+      alignment: 9
+      pivot: {x: 0.556425, y: 0.058682863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c98ea73ed6a0fa80800000000000000
+      internalID: -8435058628717803072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_164
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 229
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5536476, y: 0.022534052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47845c98a35731810800000000000000
+      internalID: 1734859175747733620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_165
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 229
+        width: 25
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5761127, y: 0.016758846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1289a4445c54ee0800000000000000
+      internalID: -1277398022189735479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_166
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 226
+        width: 23
+        height: 28
+      alignment: 9
+      pivot: {x: 0.50211763, y: 0.12525995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0df6530ce3ea620800000000000000
+      internalID: 2787234214640079027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_167
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 228
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5169572, y: 0.0629851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e526d3a4fdffb5220800000000000000
+      internalID: 2475853754658546270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_168
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 228
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.53229666, y: 0.0639801}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c56ce8f8f61f1b0800000000000000
+      internalID: -5624591797242667922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_169
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 172
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.52155274, y: 0.2035935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd32b56323c5a1510800000000000000
+      internalID: 1520629194921026523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_170
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 176
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5200968, y: 0.0657737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68bd4e9c71d22110800000000000000
+      internalID: 1234779581014980715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_171
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 173
+        width: 23
+        height: 25
+      alignment: 9
+      pivot: {x: 0.54327196, y: 0.18084167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4e8fd1b2d950c60800000000000000
+      internalID: 7783800339491775654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_172
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 174
+        width: 20
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5233444, y: 0.1023591}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7ed2c7f18e7f870800000000000000
+      internalID: 8716690825723897782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_173
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 175
+        width: 21
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5928199, y: 0.093710095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31c11f3d1d91ded0800000000000000
+      internalID: -2390957178219282117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_174
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 172
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.51769316, y: 0.21077083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12e6f1268b372f90800000000000000
+      internalID: -6978543650305809890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_175
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 172
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5202461, y: 0.2010464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac048170754ecf10800000000000000
+      internalID: 2291845609621294244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_176
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 123
+        width: 23
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5841766, y: 0.06240495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b65bb70c0776e70800000000000000
+      internalID: 9108372743391636282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_177
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 123
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.6286956, y: 0.06261179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25094065198cb3b60800000000000000
+      internalID: 7726990112223170642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_178
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 123
+        width: 27
+        height: 24
+      alignment: 9
+      pivot: {x: 0.49777788, y: 0.060834568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7944cbd5ad57220f0800000000000000
+      internalID: -1143221774662744937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_179
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 123
+        width: 28
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5904165, y: 0.054621477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce97311dfb5cb5880800000000000000
+      internalID: -8621079634033542676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_180
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 122
+        width: 29
+        height: 21
+      alignment: 9
+      pivot: {x: 0.36000007, y: 0.11809867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4221e6ffa7e7d00800000000000000
+      internalID: 972349807040537844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_181
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 123
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.56166714, y: 0.06347955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b34abf558d92920800000000000000
+      internalID: 2966139693405846332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_182
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 123
+        width: 23
+        height: 24
+      alignment: 9
+      pivot: {x: 0.58521837, y: 0.06166808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76501e11afcddd1c0800000000000000
+      internalID: -4477179487936510617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_183
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 45
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5198646, y: 0.18801117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053a922ac30ac3490800000000000000
+      internalID: -7765155475214458032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_184
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 78
+        width: 23
+        height: 24
+      alignment: 9
+      pivot: {x: 0.41185445, y: 0.061678886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7209ee6b742d290800000000000000
+      internalID: -7867146748050790471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_185
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 45
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5207691, y: 0.18833447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9982ff16a2e1a0500800000000000000
+      internalID: 363135887338317977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_186
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 78
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.4357923, y: 0.059820093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e034396c2e40d8c10800000000000000
+      internalID: 2057305976818844430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_187
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 77
+        width: 29
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6390281, y: 0.11731974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52f47ab216344ad0800000000000000
+      internalID: -2718988820959399332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_188
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 78
+        width: 28
+        height: 26
+      alignment: 9
+      pivot: {x: 0.40942, y: 0.054786682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08166330b42dd760800000000000000
+      internalID: 7484178494954805261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_189
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 78
+        width: 27
+        height: 24
+      alignment: 9
+      pivot: {x: 0.4987499, y: 0.059048016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c41020ade135810800000000000000
+      internalID: 1752778601662598301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_190
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 78
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.36905307, y: 0.06352897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3a8f43ad1ee8b50800000000000000
+      internalID: 6597458831452185576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_191
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 78
+        width: 23
+        height: 24
+      alignment: 9
+      pivot: {x: 0.41226462, y: 0.06058693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1747595456f1e8e00800000000000000
+      internalID: 1048810283043484785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_192
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 45
+        width: 26
+        height: 23
+      alignment: 9
+      pivot: {x: 0.52100754, y: 0.19526026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980d58647d6a78550800000000000000
+      internalID: 6163078058611167369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_193
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 45
+        width: 26
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5253848, y: 0.19478375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2000e3e319f7ac600800000000000000
+      internalID: 489343771314356226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_194
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 45
+        width: 26
+        height: 23
+      alignment: 9
+      pivot: {x: 0.52189696, y: 0.19212888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae8ecc3be08b7660800000000000000
+      internalID: 7384637761829899936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_195
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 45
+        width: 26
+        height: 23
+      alignment: 9
+      pivot: {x: 0.519131, y: 0.19329652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcbc55b88fb24a70800000000000000
+      internalID: 8809814414969322707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chobin hood_196
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 46
+        width: 6
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5793915, y: 0.47636032}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52a80d4351b6d0c0800000000000000
+      internalID: -4551255402078494117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
