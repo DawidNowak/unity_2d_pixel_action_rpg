@@ -5,13 +5,12 @@ public abstract class AttackingStrategy : MonoBehaviour
 {
     public float weaponRange = 20f;
     public float attackRate = 2f;
-    public float nextAttack = 0f;
     public int attackDamage = 1;
 
     protected Animator animator;
-    protected Transform attackPoint;
+    protected Vector3 attackPoint;
 
-
+    private float nextAttack = 0f;
     private LayerMask playerLayer;
 
     protected virtual void Start()
@@ -46,8 +45,8 @@ public abstract class AttackingStrategy : MonoBehaviour
         }
     }
 
-    protected Collider2D PlayerInRange()
+    protected virtual Collider2D PlayerInRange()
     {
-        return Physics2D.OverlapCircleAll(transform.position, weaponRange, playerLayer).SingleOrDefault();
+        return Physics2D.OverlapCircleAll(transform.position + attackPoint, weaponRange, playerLayer).SingleOrDefault();
     }
 }

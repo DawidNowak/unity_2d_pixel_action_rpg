@@ -9,7 +9,7 @@ public class ChasingStrategy : MovingStrategy
     private float searchDelay = 1f;
     private float nextSearch = 0f;
 
-    public static ChasingStrategy CreateComponent(GameObject where, float playerDetectionRange = 100f, float acceptableDistanceFromPlayer = 20f, float searchDelay = 1f)
+    public static ChasingStrategy CreateComponent(GameObject where, float playerDetectionRange = 5f, float acceptableDistanceFromPlayer = 1f, float searchDelay = 1f)
     {
         ChasingStrategy strategy = where.AddComponent<ChasingStrategy>();
         strategy.playerDetectionRange = playerDetectionRange;

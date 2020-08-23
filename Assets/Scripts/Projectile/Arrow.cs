@@ -5,7 +5,7 @@ public class Arrow : MonoBehaviour
     private Rigidbody2D rigidBody;
 
     public int attackDamage = 1;
-    public float speed = 100f;
+    public float speed = 4f;
 
 
     void Awake()
