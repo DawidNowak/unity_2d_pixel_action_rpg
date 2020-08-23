@@ -9,6 +9,8 @@ public abstract class AttackingStrategy : MonoBehaviour
     public int attackDamage = 1;
 
     protected Animator animator;
+    protected Transform attackPoint;
+
 
     private LayerMask playerLayer;
 

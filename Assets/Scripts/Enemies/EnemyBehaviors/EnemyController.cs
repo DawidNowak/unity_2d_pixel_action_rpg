@@ -2,6 +2,8 @@
 
 public abstract class EnemyController : LivingObject
 {
+    protected bool wasHit = false;
+
     protected Animator animator;
 
     protected MovingStrategy movingStrategy;
@@ -31,6 +33,12 @@ public abstract class EnemyController : LivingObject
         {
             movingStrategy.Update();
         };
+    }
+
+    protected virtual void StartFleeing()
+    {
+        Destroy(movingStrategy);
+        movingStrategy = FleeingStrategy.CreateComponent(gameObject);
     }
 
     protected override void Die()

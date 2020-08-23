@@ -1,8 +1,6 @@
 ﻿
 public class Rabilion : EnemyController
 {
-    private bool wasHit = false;
-
     protected override void Init()
     {
         maxHealth = 5;
@@ -32,11 +30,5 @@ public class Rabilion : EnemyController
                 StartFleeing();
             }
         }
-    }
-
-    private void StartFleeing()
-    {
-        Destroy(movingStrategy);
-        movingStrategy = FleeingStrategy.CreateComponent(gameObject);
     }
 }
