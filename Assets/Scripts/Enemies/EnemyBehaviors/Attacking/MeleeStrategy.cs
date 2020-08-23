@@ -2,7 +2,7 @@
 
 public class MeleeStrategy : AttackingStrategy
 {
-    public static MeleeStrategy CreateComponent(GameObject where, float weaponRange = 20f, float attackRate = 1f, int attackDamage = 1)
+    public static MeleeStrategy CreateComponent(GameObject where, float weaponRange = 1f, float attackRate = 1f, int attackDamage = 1)
     {
         MeleeStrategy strategy = where.AddComponent<MeleeStrategy>();
         strategy.weaponRange = weaponRange;

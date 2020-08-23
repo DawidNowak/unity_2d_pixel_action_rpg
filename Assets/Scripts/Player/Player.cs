@@ -20,7 +20,7 @@ public class Player : LivingObject
     public float moveSpeed;
 
     public Transform attackPosition;
-    public float weaponRange = 8f;
+    public float weaponRange = 0.3f;
     public LayerMask destructibleLayers;
     public int attackDamage = 2;
     #endregion
@@ -86,7 +86,7 @@ public class Player : LivingObject
     private void HitEnemies()
     {
         var direction = DetermineDirection();
-        attackPosition.position = transform.position + direction.ConvertToVector3() * 15f;
+        attackPosition.position = transform.position + direction.ConvertToVector3() * 0.55f;
 
         var enemies = GetEnemiesInRange(direction);
 
@@ -100,9 +100,11 @@ public class Player : LivingObject
     {
         Collider2D[] hitEnemies;
         if (direction == Facing.Left || direction == Facing.Right)
-            hitEnemies = Physics2D.OverlapCircleAll(attackPosition.position, weaponRange, destructibleLayers);
+            hitEnemies = Physics2D.OverlapCircleAll(attackPosition.position + Vector3.up * 0.33f, weaponRange, destructibleLayers);
+        else if (direction == Facing.Top)
+            hitEnemies = Physics2D.OverlapCapsuleAll(attackPosition.position + Vector3.up * 0.15f, new Vector2(2.5f * weaponRange, weaponRange), CapsuleDirection2D.Horizontal, 0f, destructibleLayers);
         else
-            hitEnemies = Physics2D.OverlapCapsuleAll(attackPosition.position, new Vector2(4 * weaponRange, 2 * weaponRange), CapsuleDirection2D.Horizontal, 0f, destructibleLayers);
+            hitEnemies = Physics2D.OverlapCapsuleAll(attackPosition.position + Vector3.up * 0.5f, new Vector2(2.5f * weaponRange, weaponRange), CapsuleDirection2D.Horizontal, 0f, destructibleLayers);
 
         return hitEnemies;
     }

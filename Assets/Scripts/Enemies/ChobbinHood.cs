@@ -4,7 +4,7 @@
     {
         maxHealth = 10;
         hpPercWhenFlee = 0f;
-        movingStrategy = WanderingStrategy.CreateComponent(gameObject, 40f, 0.25f);
+        movingStrategy = WanderingStrategy.CreateComponent(gameObject, 2f, 0.25f);
         attackingStrategy = RangedProjectileStrategy.CreateComponent(gameObject, attackRate: 0.5f);
 
         base.Init();
@@ -20,7 +20,7 @@
             {
                 wasHit = true;
                 Destroy(movingStrategy);
-                movingStrategy = ChasingStrategy.CreateComponent(gameObject, playerDetectionRange: attackingStrategy.weaponRange + 60f, acceptableDistanceFromPlayer: attackingStrategy.weaponRange, searchDelay: 0.5f);
+                movingStrategy = ChasingStrategy.CreateComponent(gameObject, playerDetectionRange: attackingStrategy.weaponRange + 6f, acceptableDistanceFromPlayer: attackingStrategy.weaponRange, searchDelay: 0.5f);
                 movingStrategy.TargetReachedCallback += attackingStrategy.ProcessAttack;
             }
 

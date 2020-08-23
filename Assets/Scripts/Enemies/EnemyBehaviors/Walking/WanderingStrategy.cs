@@ -9,9 +9,9 @@ public class WanderingStrategy : MovingStrategy
     private float nextMove = 0f;
 
     public float moveProbability = 0.25f;
-    public float moveDistance = 60f;
+    public float moveDistance = 1f;
 
-    public static WanderingStrategy CreateComponent(GameObject where, float moveDistance = 60f, float moveProbability = 0.25f, float idleTime = 2f)
+    public static WanderingStrategy CreateComponent(GameObject where, float moveDistance = 1f, float moveProbability = 0.25f, float idleTime = 2f)
     {
         WanderingStrategy strategy = where.AddComponent<WanderingStrategy>();
         strategy.moveDistance = moveDistance;

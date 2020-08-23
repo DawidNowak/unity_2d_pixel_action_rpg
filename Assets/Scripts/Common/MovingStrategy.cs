@@ -4,7 +4,7 @@ using static Assets.Scripts.Utils.Enums;
 
 public abstract class MovingStrategy : MonoBehaviour
 {
-    public float moveSpeed = 30f;
+    public float moveSpeed = 1f;
     public float acceptableDistanceFromTarget = 0f;
     public Action TargetReachedCallback;
 

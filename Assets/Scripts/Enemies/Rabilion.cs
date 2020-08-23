@@ -5,7 +5,7 @@ public class Rabilion : EnemyController
     {
         maxHealth = 5;
         hpPercWhenFlee = 0.4f;
-        movingStrategy = WanderingStrategy.CreateComponent(gameObject, 20f);
+        movingStrategy = WanderingStrategy.CreateComponent(gameObject);
         attackingStrategy = MeleeStrategy.CreateComponent(gameObject, attackRate: 0.5f);
 
         base.Init();
@@ -21,7 +21,7 @@ public class Rabilion : EnemyController
             {
                 wasHit = true;
                 Destroy(movingStrategy);
-                movingStrategy = ChasingStrategy.CreateComponent(gameObject, acceptableDistanceFromPlayer: 19f, searchDelay: 0.5f);
+                movingStrategy = ChasingStrategy.CreateComponent(gameObject, acceptableDistanceFromPlayer: 1f, searchDelay: 0.5f);
                 movingStrategy.TargetReachedCallback += attackingStrategy.ProcessAttack;
             }
 
