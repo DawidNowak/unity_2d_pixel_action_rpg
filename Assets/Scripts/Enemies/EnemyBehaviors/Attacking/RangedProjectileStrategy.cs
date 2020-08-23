@@ -1,13 +1,12 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class RangedProjectiileStrategy : AttackingStrategy
+public class RangedProjectileStrategy : AttackingStrategy
 {
     protected GameObject arrowPrefab;
 
-    public static RangedProjectiileStrategy CreateComponent(GameObject where, float weaponRange = 120f, float attackRate = 1f, int attackDamage = 1)
+    public static RangedProjectileStrategy CreateComponent(GameObject where, float weaponRange = 120f, float attackRate = 1f, int attackDamage = 1)
     {
-        RangedProjectiileStrategy strategy = where.AddComponent<RangedProjectiileStrategy>();
+        RangedProjectileStrategy strategy = where.AddComponent<RangedProjectileStrategy>();
         strategy.weaponRange = weaponRange;
         strategy.attackRate = attackRate;
         strategy.attackDamage = attackDamage;

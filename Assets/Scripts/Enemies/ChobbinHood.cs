@@ -5,7 +5,7 @@
         maxHealth = 10;
         hpPercWhenFlee = 0f;
         movingStrategy = WanderingStrategy.CreateComponent(gameObject, 40f, 0.25f);
-        attackingStrategy = RangedProjectiileStrategy.CreateComponent(gameObject, attackRate: 0.5f);
+        attackingStrategy = RangedProjectileStrategy.CreateComponent(gameObject, attackRate: 0.5f);
 
         base.Init();
     }
