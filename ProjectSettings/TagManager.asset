@@ -42,9 +42,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Units
+  - name: Objects
     uniqueID: 3318708963
-    locked: 0
-  - name: Player
-    uniqueID: 2293729611
     locked: 0

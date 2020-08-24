@@ -59,7 +59,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 150
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -204,8 +204,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -2001237685
-  m_SortingLayer: 2
+  m_SortingLayerID: -976258333
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 8960899199633546546, guid: ce581882834feeb4982f2179e8b0bdf5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -217,7 +217,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &3725751979525972542
 Animator:
   serializedVersion: 3
@@ -252,9 +252,9 @@ MonoBehaviour:
   maxHealth: 1
   health: 0
   hpPercWhenFlee: 0
-  moveSpeed: 100
+  moveSpeed: 3
   attackPosition: {fileID: 1351308499821061890}
-  weaponRange: 8
+  weaponRange: 0.3
   destructibleLayers:
     serializedVersion: 2
     m_Bits: 512
