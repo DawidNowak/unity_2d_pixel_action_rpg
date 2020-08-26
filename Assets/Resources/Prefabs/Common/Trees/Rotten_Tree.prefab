@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 9061382176313460496}
   - component: {fileID: 5884346582788841807}
+  - component: {fileID: 5289746680996124976}
+  - component: {fileID: 6300558930333125148}
   m_Layer: 0
   m_Name: Rotten_Tree
   m_TagString: Untagged
@@ -82,3 +84,71 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &5289746680996124976
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7784358489022572262}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &6300558930333125148
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7784358489022572262}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.333, y: 0.22}
+    oldSize: {x: 4.34375, y: 4.625}
+    newSize: {x: 4.34375, y: 4.625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.8514161, y: 0.17179298}
+      - {x: 1.1811814, y: -0.07748699}
+      - {x: 0.8041825, y: -0.18248081}
+      - {x: 1.2424326, y: -0.6937208}
+      - {x: 0.44157696, y: -0.48102665}
+      - {x: 0.08581638, y: -0.5427799}
+      - {x: -0.09904146, y: -0.7813549}
+      - {x: -0.3487444, y: -1.0040894}
+      - {x: -0.455369, y: -1.0031614}
+      - {x: -0.43406296, y: -0.6497154}
+      - {x: -0.41957378, y: -0.47473907}
+      - {x: -0.7824917, y: -0.50265694}
+      - {x: -1.0561318, y: -0.60464096}
+      - {x: -1.117794, y: -0.51652145}
+      - {x: -0.8451233, y: -0.24882889}
+      - {x: -0.6930847, y: -0.13212776}
+      - {x: -0.9128885, y: -0.076664925}
+      - {x: -0.94685173, y: 0.02000904}
+      - {x: -0.5493388, y: 0.21791446}
+      - {x: -0.4124856, y: 0.48930776}
+      - {x: 0.36456776, y: 0.4886769}
+      - {x: 0.5281601, y: 0.24633396}
