@@ -5,7 +5,9 @@ Current version hosted on azure.
 [2D action rpg](https://2darpg.azurewebsites.net/)
 
 Arrows- movement
+
 C- arm/disarm
+
 X- slash
 
 ![2d action rpg](https://github.com/DawidNowak/unity_2d_pixel_action_rpg/blob/master/Assets/Resources/Screenshots/screenshot_2.png)
