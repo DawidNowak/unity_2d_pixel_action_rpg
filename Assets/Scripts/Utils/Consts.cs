@@ -13,5 +13,6 @@
     public static string IsArmed = nameof(IsArmed);
     public static string Attack = nameof(Attack);
 
-
+    //TAGS
+    public static string Wall = nameof(Wall);
 }
