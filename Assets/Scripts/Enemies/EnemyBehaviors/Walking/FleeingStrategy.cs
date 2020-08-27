@@ -10,7 +10,7 @@ public class FleeingStrategy : MovingStrategy
     private float searchDelay = 1f;
     private float nextSearch = 0f;
 
-    public static FleeingStrategy CreateComponent(GameObject where, float playerDetectionRange = 60f, float fleeDistance = 60f, float searchDelay = 1f)
+    public static FleeingStrategy CreateComponent(GameObject where, float playerDetectionRange = 5f, float fleeDistance = 5f, float searchDelay = 1f)
     {
         FleeingStrategy strategy = where.AddComponent<FleeingStrategy>();
         strategy.playerDetectionRange = playerDetectionRange;

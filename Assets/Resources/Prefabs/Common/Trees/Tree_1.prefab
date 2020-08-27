@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1236154624121313640}
   - component: {fileID: 8704446223229676373}
   - component: {fileID: 4550369865155455162}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!60 &4550369865155455162
 PolygonCollider2D:
   m_ObjectHideFlags: 0

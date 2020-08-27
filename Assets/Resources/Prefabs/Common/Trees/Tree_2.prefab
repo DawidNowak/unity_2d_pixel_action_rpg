@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4846354748259325585}
   - component: {fileID: 4525625685419479743}
   - component: {fileID: 7678955911643665242}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4017411450117899784}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.64569795, y: -2.233128, z: -12.77793}
+  m_LocalPosition: {x: -0.64569795, y: -2.233128, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -104,7 +104,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!60 &7678955911643665242
 PolygonCollider2D:
   m_ObjectHideFlags: 0

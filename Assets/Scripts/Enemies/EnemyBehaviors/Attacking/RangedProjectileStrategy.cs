@@ -18,7 +18,7 @@ public class RangedProjectileStrategy : AttackingStrategy
 
     protected override void Start()
     {
-        arrowPrefab = (GameObject)Resources.Load("Prefabs/Common/Arrow");
+        arrowPrefab = (GameObject)Resources.Load("Prefabs/Common/Projectiles/Arrow");
         base.Start();
     }
 

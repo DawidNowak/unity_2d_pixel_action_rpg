@@ -4,7 +4,7 @@ using static Assets.Scripts.Utils.Enums;
 
 public class ChasingStrategy : MovingStrategy
 {
-    public float playerDetectionRange = 100f;
+    public float playerDetectionRange = 5f;
 
     private float searchDelay = 1f;
     private float nextSearch = 0f;

@@ -1517,8 +1517,8 @@ TextureImporter:
       physicsShape:
       - - {x: -16, y: 16}
         - {x: -16, y: -16}
-        - {x: 2, y: -16}
-        - {x: 2, y: 16}
+        - {x: 3, y: -16}
+        - {x: 3, y: 16}
       tessellationDetail: 0
       bones: []
       spriteID: 64e747b5e1bb11170800000000000000

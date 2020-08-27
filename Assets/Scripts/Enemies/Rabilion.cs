@@ -24,7 +24,8 @@ public class Rabilion : EnemyController
             {
                 wasHit = true;
                 Destroy(movingStrategy);
-                movingStrategy = ChasingStrategy.CreateComponent(gameObject, acceptableDistanceFromPlayer: 0.49f, searchDelay: 0.5f);
+
+                movingStrategy = ChasingStrategy.CreateComponent(gameObject, acceptableDistanceFromPlayer: 0.7f, searchDelay: 0.5f);
                 movingStrategy.TargetReachedCallback += attackingStrategy.ProcessAttack;
             }
 
