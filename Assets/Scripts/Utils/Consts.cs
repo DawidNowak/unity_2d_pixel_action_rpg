@@ -14,5 +14,6 @@
     public static string Attack = nameof(Attack);
 
     //TAGS
+    public static string Player = nameof(Player);
     public static string Wall = nameof(Wall);
 }

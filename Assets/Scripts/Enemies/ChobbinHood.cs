@@ -7,7 +7,7 @@ public class ChobbinHood : EnemyController
     {
         maxHealth = 10;
         hpPercWhenFlee = 0f;
-        movingStrategy = WanderingStrategy.CreateComponent(gameObject, 2f, 1f);
+        movingStrategy = WanderingStrategy.CreateComponent(gameObject, 2f);
         attackingStrategy = RangedProjectileStrategy.CreateComponent(gameObject, Vector3.up * 0.3f, attackRate: 0.5f);
 
         base.Init();

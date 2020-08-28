@@ -5,7 +5,7 @@ using static Assets.Scripts.Utils.Enums;
 public abstract class MovingStrategy : MonoBehaviour
 {
     public float moveSpeed = 1f;
-    public float acceptableDistanceFromTarget = 0.01f;
+    public float acceptableDistanceFromTarget = 0.02f;
     public Action TargetReachedCallback;
 
     protected Animator animator;
@@ -34,14 +34,10 @@ public abstract class MovingStrategy : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        StopMovement();
-    }
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == Consts.Wall)
+        var tag = collision.gameObject.tag;
+        if (tag == Consts.Wall || tag == Consts.Player)
         {
             transform.position = transform.position + (transform.position - target).normalized * 0.1f;
             StopMovement();
