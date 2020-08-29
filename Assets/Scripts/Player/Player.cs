@@ -17,7 +17,8 @@ public class Player : LivingObject
     #endregion
 
     #region Public
-    public Healthbar healthbar;
+    public ProgressBar healthbar;
+    public ProgressBar manaBar;
 
     public float moveSpeed;
 
@@ -34,7 +35,8 @@ public class Player : LivingObject
         rigidBody = GetComponent<Rigidbody2D>();
 
         base.Start();
-        healthbar.SetMaxHealth(maxHealth);
+        healthbar.SetMaxValue(maxHealth);
+        manaBar.SetMaxValue(maxMana);
     }
 
     void Update()
@@ -54,7 +56,7 @@ public class Player : LivingObject
     {
         animator.SetTrigger(Consts.Hurt);
         base.TakeDamage(damage);
-        healthbar.SetHealth(health);
+        healthbar.SetValue(health);
     }
 
     protected override void Die()

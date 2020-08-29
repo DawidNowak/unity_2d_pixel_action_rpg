@@ -4,8 +4,10 @@ using UnityEngine;
 public abstract class LivingObject : MonoBehaviour
 {
     public int health;
+    public int mana;
 
     protected int maxHealth = 1;
+    protected int maxMana = 1;
     protected float hpPercWhenFlee = 0f;
 
     protected virtual void Start()
@@ -16,6 +18,7 @@ public abstract class LivingObject : MonoBehaviour
     protected virtual void Init()
     {
         health = maxHealth;
+        mana = maxMana;
     }
 
     public virtual void TakeDamage(int damage)
