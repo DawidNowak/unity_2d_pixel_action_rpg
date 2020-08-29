@@ -70,7 +70,7 @@ public abstract class MovingStrategy : MonoBehaviour
         }
     }
 
-    private void StopMovement()
+    public void StopMovement()
     {
         rb.velocity = Vector2.zero;
         animator.SetFloat(Consts.MoveSpeed, 0f);

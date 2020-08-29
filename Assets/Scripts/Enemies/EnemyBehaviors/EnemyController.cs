@@ -43,6 +43,7 @@ public abstract class EnemyController : LivingObject
 
     protected override void Die()
     {
+        movingStrategy.StopMovement();
         Destroy(movingStrategy);
         animator.SetBool(Consts.IsDead, true);
         base.Die();
