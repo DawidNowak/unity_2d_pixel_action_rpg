@@ -3,10 +3,10 @@ using UnityEngine;
 
 public abstract class LivingObject : MonoBehaviour
 {
-    public int maxHealth = 1;
     public int health;
 
-    public float hpPercWhenFlee = 0f;
+    protected int maxHealth = 1;
+    protected float hpPercWhenFlee = 0f;
 
     protected virtual void Start()
     {
