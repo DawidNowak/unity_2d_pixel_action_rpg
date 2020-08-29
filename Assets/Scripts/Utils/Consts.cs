@@ -4,7 +4,10 @@
     public static string Horizontal = nameof(Horizontal);
     public static string Vertical = nameof(Vertical);
 
-    //LIVINg OBJECT VARIABLES AND TRIGGERS
+    //UI
+    public static string HealthBar = nameof(HealthBar);
+
+    //LIVING OBJECT VARIABLES AND TRIGGERS
     public static string Hurt = nameof(Hurt);                   //TODO: PO CHUJ TO MA TUTAJ BYĆ, PRZENIEŚĆ NA KLASKĘ ENEMY ALBO COŚ
     public static string IsDead = nameof(IsDead);               //TAK SAMO JAK SEKCJA PLAYER, WJEBAĆ TO BEZPOŚREDNIO DO PLAYERA
 

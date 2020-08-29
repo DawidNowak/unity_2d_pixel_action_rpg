@@ -1,10 +1,14 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
+using UnityEngine.UI;
 using static Assets.Scripts.Utils.Enums;
 using static Assets.Scripts.Utils.Extensions;
 
 public class Player : LivingObject
 {
     #region Private
+    private Slider healthBar;
+
     private Animator animator;
     private Rigidbody2D rigidBody;
 
@@ -30,7 +34,15 @@ public class Player : LivingObject
         maxHealth = 5;
         animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
+
         base.Start();
+
+        var progressBars = FindObjectsOfType<Slider>();
+
+        healthBar = progressBars.Single(bar => bar.name == Consts.HealthBar);
+        healthBar.maxValue = 0f;
+        healthBar.maxValue = maxHealth;
+        healthBar.value = health;
     }
 
     void Update()
@@ -50,6 +62,7 @@ public class Player : LivingObject
     {
         animator.SetTrigger(Consts.Hurt);
         base.TakeDamage(damage);
+        healthBar.value = health;
     }
 
     protected override void Die()
