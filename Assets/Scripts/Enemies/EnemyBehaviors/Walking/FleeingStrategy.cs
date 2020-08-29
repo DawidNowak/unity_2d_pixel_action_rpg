@@ -25,7 +25,7 @@ public class FleeingStrategy : MovingStrategy
         base.Start();
     }
 
-    public override void Update()
+    public override void FixedUpdate()
     {
         switch (state)
         {
@@ -37,7 +37,7 @@ public class FleeingStrategy : MovingStrategy
                 break;
         }
 
-        base.Update();
+        base.FixedUpdate();
     }
 
     //TODO: JAKOŚ DZIWNIE CHODZI, COŚ JEST NIE TAK Z WEKTOREM UCIECZKI (PRZECHODZI CZASEM PRZEZ PLAYERA)

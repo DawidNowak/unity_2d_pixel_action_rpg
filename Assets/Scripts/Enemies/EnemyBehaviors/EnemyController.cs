@@ -27,11 +27,11 @@ public abstract class EnemyController : LivingObject
         };
     }
 
-    protected virtual void Update()
+    protected virtual void FixedUpdate()
     {
         if (movingStrategy != null)
         {
-            movingStrategy.Update();
+            movingStrategy.FixedUpdate();
         };
     }
 

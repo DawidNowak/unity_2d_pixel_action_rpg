@@ -2,6 +2,8 @@
 using UnityEngine;
 using static Assets.Scripts.Utils.Enums;
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Collider2D))]
 public abstract class MovingStrategy : MonoBehaviour
 {
     public float moveSpeed = 1f;
@@ -10,6 +12,7 @@ public abstract class MovingStrategy : MonoBehaviour
 
     protected Animator animator;
     protected Rigidbody2D rb;
+    protected Collider2D coll;
     protected WalkingState state;
     protected Vector3 target;
 
@@ -18,9 +21,10 @@ public abstract class MovingStrategy : MonoBehaviour
         state = WalkingState.Standing;
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        coll = GetComponent<Collider2D>();
     }
 
-    public virtual void Update()
+    public virtual void FixedUpdate()
     {
         switch (state)
         {
@@ -34,28 +38,31 @@ public abstract class MovingStrategy : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        var tag = collision.gameObject.tag;
-        if (tag == Consts.Wall || tag == Consts.Player)
-        {
-            transform.position = transform.position + (transform.position - target).normalized * 0.1f;
-            StopMovement();
-        }
-    }
-
     private void ProcessMove()
     {
         var direction = (target - transform.position).normalized;
 
-        if (direction != Vector3.zero)
+        var position = coll.bounds.center;
+        var obstacle = Physics2D.Raycast(position, direction, 0.2f);
+
+        if (obstacle.collider == null)
         {
-            animator.SetFloat(Consts.Horizontal, direction.x);
-            animator.SetFloat(Consts.Vertical, direction.y);
+            if (direction != Vector3.zero)
+            {
+                animator.SetFloat(Consts.Horizontal, direction.x);
+                animator.SetFloat(Consts.Vertical, direction.y);
+            }
+
+            var current = new Vector2(transform.position.x, transform.position.y);
+            rb.velocity = (new Vector2(target.x, target.y) - current).normalized * moveSpeed;
+        }
+        else
+        {
+            StopMovement();
         }
     }
 
-    protected virtual void CheckMovementFinished()
+    private void CheckMovementFinished()
     {
         if (target == null || IsTargetInRange())
         {
@@ -76,9 +83,6 @@ public abstract class MovingStrategy : MonoBehaviour
 
         if (!IsTargetInRange())
         {
-            var current = new Vector2(transform.position.x, transform.position.y);
-            rb.velocity = (new Vector2(target.x, target.y) - current).normalized * moveSpeed;
-
             animator.SetFloat(Consts.MoveSpeed, moveSpeed);
             state = WalkingState.Walking;
         }

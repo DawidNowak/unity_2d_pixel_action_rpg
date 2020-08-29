@@ -25,7 +25,7 @@ public class ChasingStrategy : MovingStrategy
         base.Start();
     }
 
-    public override void Update()
+    public override void FixedUpdate()
     {
         switch (state)
         {
@@ -37,7 +37,7 @@ public class ChasingStrategy : MovingStrategy
                 break;
         }
 
-        base.Update();
+        base.FixedUpdate();
     }
 
     private void ProcessStance()

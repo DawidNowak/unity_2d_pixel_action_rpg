@@ -21,7 +21,7 @@ public class WanderingStrategy : MovingStrategy
         return strategy;
     }
 
-    public override void Update()
+    public override void FixedUpdate()
     {
         switch (state)
         {
@@ -34,7 +34,7 @@ public class WanderingStrategy : MovingStrategy
                 break;
         }
 
-        base.Update();
+        base.FixedUpdate();
     }
 
     private bool ShouldMove()
