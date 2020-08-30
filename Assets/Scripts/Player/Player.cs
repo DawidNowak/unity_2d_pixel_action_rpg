@@ -19,6 +19,7 @@ public class Player : LivingObject
     #region Public
     public ProgressBar healthbar;
     public ProgressBar manaBar;
+    public ProgressBar expBar;
 
     public float moveSpeed;
 
@@ -37,6 +38,7 @@ public class Player : LivingObject
         base.Start();
         healthbar.SetMaxValue(maxHealth);
         manaBar.SetMaxValue(maxMana);
+        expBar.SetMaxValue(100, false);
     }
 
     void Update()
