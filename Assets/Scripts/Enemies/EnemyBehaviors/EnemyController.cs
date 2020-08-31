@@ -9,6 +9,8 @@ public abstract class EnemyController : LivingObject
     protected MovingStrategy movingStrategy;
     protected AttackingStrategy attackingStrategy;
 
+    protected int expForKilling = 1;
+
     public override void TakeDamage(int damage)
     {
         animator.SetTrigger(Consts.Hurt);
@@ -43,6 +45,7 @@ public abstract class EnemyController : LivingObject
 
     protected override void Die()
     {
+        FindObjectOfType<GameManager>().GetLevelSystem().AddExperience(expForKilling);
         movingStrategy.StopMovement();
         Destroy(movingStrategy);
         animator.SetBool(Consts.IsDead, true);

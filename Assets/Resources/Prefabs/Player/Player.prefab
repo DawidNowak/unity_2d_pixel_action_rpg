@@ -44,7 +44,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3725751979525972538}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -55,7 +55,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &7027536584788791083
 BoxCollider2D:
@@ -165,9 +165,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d76991fbf243afa42921d2a3664a8bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
   health: 0
-  hpPercWhenFlee: 0
+  mana: 0
+  healthbar: {fileID: 0}
+  manaBar: {fileID: 0}
+  expBar: {fileID: 0}
   moveSpeed: 3
   attackPosition: {fileID: 1351308499821061890}
   weaponRange: 0.3

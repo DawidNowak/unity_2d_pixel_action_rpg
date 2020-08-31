@@ -631,7 +631,7 @@ GameObject:
   - component: {fileID: 114735371}
   - component: {fileID: 114735370}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ExpText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -937,7 +937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 398161835}
-  healthText: {fileID: 2080522974}
+  text: {fileID: 2080522974}
 --- !u!114 &398161835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -983,8 +983,8 @@ MonoBehaviour:
   m_Direction: 0
   m_MinValue: 0
   m_MaxValue: 5
-  m_WholeNumbers: 1
-  m_Value: 3
+  m_WholeNumbers: 0
+  m_Value: 2.5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1282,7 +1282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 502018818}
-  healthText: {fileID: 2021638503}
+  text: {fileID: 2021638503}
 --- !u!114 &502018818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1329,7 +1329,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 5
   m_WholeNumbers: 0
-  m_Value: 5
+  m_Value: 4
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2069,11 +2069,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 992266942}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b640c93c81ad8044b6abbb933c53e81, type: 3}
+  m_Script: {fileID: 11500000, guid: d121067db64bf9e448cde18505e970f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 992266945}
-  healthText: {fileID: 114735370}
+  text: {fileID: 114735370}
 --- !u!114 &992266945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2119,8 +2119,8 @@ MonoBehaviour:
   m_Direction: 0
   m_MinValue: 0
   m_MaxValue: 5
-  m_WholeNumbers: 1
-  m_Value: 3
+  m_WholeNumbers: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8809,7 +8809,7 @@ GameObject:
   - component: {fileID: 2021638504}
   - component: {fileID: 2021638503}
   m_Layer: 5
-  m_Name: Text
+  m_Name: HealthText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8963,7 +8963,7 @@ GameObject:
   - component: {fileID: 2080522975}
   - component: {fileID: 2080522974}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ManaText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9127,14 +9127,6 @@ PrefabInstance:
     - target: {fileID: 3725751979525972538, guid: 7622b73d10c0b0942a5b9a4fd6dc8d2d, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3725751979525972540, guid: 7622b73d10c0b0942a5b9a4fd6dc8d2d, type: 3}
-      propertyPath: m_BodyType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3725751979525972540, guid: 7622b73d10c0b0942a5b9a4fd6dc8d2d, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3725751979525972541, guid: 7622b73d10c0b0942a5b9a4fd6dc8d2d, type: 3}
       propertyPath: m_LocalPosition.x

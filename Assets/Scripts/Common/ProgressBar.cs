@@ -6,7 +6,7 @@ public class ProgressBar : MonoBehaviour
     private float target = 0f;
 
     public Slider slider;
-    public Text healthText;
+    public Text text;
 
     private float FillSpeed => (slider.maxValue - slider.minValue) / 1f;
     private float Epsilon => (slider.maxValue - slider.minValue) / 1000f;
@@ -17,7 +17,7 @@ public class ProgressBar : MonoBehaviour
         slider.value = currentIsMax ? value : 0f;
         target = slider.value;
 
-        healthText.text = $"{slider.value}/{slider.maxValue}";
+        text.text = $"{slider.value}/{slider.maxValue}";
     }
 
     public void SetMinValue(int value)
@@ -33,7 +33,7 @@ public class ProgressBar : MonoBehaviour
         }
 
         target = value;
-        healthText.text = $"{value}/{slider.maxValue}";
+        text.text = $"{value}/{slider.maxValue}";
     }
 
     void Update()

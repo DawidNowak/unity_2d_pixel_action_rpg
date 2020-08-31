@@ -14,12 +14,14 @@ public class Player : LivingObject
 
     private Vector2 facingDirection;
     private Vector2 moveDirection;
+
+    private LevelSystem levelSystem;
     #endregion
 
     #region Public
     public ProgressBar healthbar;
     public ProgressBar manaBar;
-    public ProgressBar expBar;
+    public ExpBar expBar;
 
     public float moveSpeed;
 
@@ -36,9 +38,13 @@ public class Player : LivingObject
         rigidBody = GetComponent<Rigidbody2D>();
 
         base.Start();
+
+
         healthbar.SetMaxValue(maxHealth);
         manaBar.SetMaxValue(maxMana);
-        expBar.SetMaxValue(100, false);
+
+        levelSystem = FindObjectOfType<GameManager>().GetLevelSystem();
+        expBar.SetLevelSystem(levelSystem);
     }
 
     void Update()
