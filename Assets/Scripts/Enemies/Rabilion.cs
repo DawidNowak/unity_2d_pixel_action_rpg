@@ -7,7 +7,7 @@ public class Rabilion : EnemyController
     {
         maxHealth = 5;
         hpPercWhenFlee = 0.4f;
-        expForKilling = 5;
+        expForKilling = 10;
         movingStrategy = WanderingStrategy.CreateComponent(gameObject);
         attackingStrategy = MeleeStrategy.CreateComponent(gameObject, Vector3.up * 0.45f, 0.5f, 0.5f);
 
