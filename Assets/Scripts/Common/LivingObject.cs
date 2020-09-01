@@ -1,8 +1,10 @@
 ﻿using System.Linq;
+using TMPro;
 using UnityEngine;
 
 public abstract class LivingObject : MonoBehaviour
 {
+    public GameObject damagePopup;
     public int health;
     public int mana;
 
@@ -13,6 +15,7 @@ public abstract class LivingObject : MonoBehaviour
     protected virtual void Start()
     {
         Init();
+        damagePopup = (GameObject)Resources.Load("Prefabs/Common/UI/DamagePopup", typeof(GameObject));
     }
 
     protected virtual void Init()
@@ -24,10 +27,19 @@ public abstract class LivingObject : MonoBehaviour
     public virtual void TakeDamage(int damage)
     {
         health -= damage;
+
+        displayDamagePopup(damage);
+
         if (health <= 0)
         {
             Die();
         }
+    }
+
+    private void displayDamagePopup(int damage)
+    {
+        var popup = Instantiate(damagePopup, transform.position, Quaternion.identity);
+        popup.GetComponent<TextMeshPro>().text = damage.ToString();
     }
 
     protected bool NeedToFlee()
