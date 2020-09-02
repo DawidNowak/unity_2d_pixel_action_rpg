@@ -4,7 +4,7 @@ public class GameManager : MonoBehaviour
 {
     private LevelSystem levelSystem;
 
-    void Start()
+    void Awake()
     {
         levelSystem = new LevelSystem();
     }
