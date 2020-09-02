@@ -69,6 +69,7 @@ public class Player : LivingObject
 
     protected override void Die()
     {
+        rigidBody.velocity = Vector2.zero;
         animator.SetBool(Consts.IsDead, true);
         base.Die();
     }
