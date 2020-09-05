@@ -4,7 +4,9 @@ public class GameManager : MonoBehaviour
 {
     private LevelSystem levelSystem;
 
-    public GameObject pauseScreen;
+    public GameObject PauseScreen;
+    public GameObject Menu;
+    public GameObject Hud;
 
     void Awake()
     {
@@ -15,14 +17,17 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            TogglePause();
+            ToggleMenu();
         }
     }
 
-    private void TogglePause()
+    private void ToggleMenu()
     {
-        Time.timeScale = Time.timeScale == 0 ? 1 : 0;
-        pauseScreen.SetActive(Time.timeScale == 0);
+        var isPause = Time.timeScale == 0;
+        Time.timeScale = isPause ? 1 : 0;
+        PauseScreen.SetActive(!isPause);
+        Menu.SetActive(!isPause);
+        Hud.SetActive(isPause);
     }
 
     public LevelSystem GetLevelSystem()
