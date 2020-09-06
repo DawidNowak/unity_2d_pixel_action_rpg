@@ -286,13 +286,13 @@ TextureImporter:
     second: ground_tiles_93
   - first:
       213: -2618855034187513679
-    second: ground_tiles_94
+    second: top_left
   - first:
       213: 8242474988541599816
-    second: ground_tiles_95
+    second: top
   - first:
       213: -6239827267709572384
-    second: ground_tiles_96
+    second: top_right
   - first:
       213: 528477228184227471
     second: ground_tiles_97
@@ -328,13 +328,13 @@ TextureImporter:
     second: ground_tiles_107
   - first:
       213: -8447364642779389649
-    second: ground_tiles_108
+    second: left
   - first:
       213: -6590935836540794682
     second: ground_tiles_109
   - first:
       213: -2909861476868001975
-    second: ground_tiles_110
+    second: right
   - first:
       213: 1485328824836658579
     second: ground_tiles_111
@@ -364,13 +364,13 @@ TextureImporter:
     second: ground_tiles_119
   - first:
       213: -2031215988462714164
-    second: ground_tiles_120
+    second: bottom_left
   - first:
       213: -410459168274587207
-    second: ground_tiles_121
+    second: bottom
   - first:
       213: -5676304491182745745
-    second: ground_tiles_122
+    second: bottor_right
   - first:
       213: -2163792733508976566
     second: ground_tiles_123
@@ -2524,7 +2524,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground_tiles_94
+      name: top_left
       rect:
         serializedVersion: 2
         x: 96
@@ -2545,7 +2545,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground_tiles_95
+      name: top
       rect:
         serializedVersion: 2
         x: 128
@@ -2566,7 +2566,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground_tiles_96
+      name: top_right
       rect:
         serializedVersion: 2
         x: 160
@@ -2818,7 +2818,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground_tiles_108
+      name: left
       rect:
         serializedVersion: 2
         x: 96
@@ -2860,7 +2860,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground_tiles_110
+      name: right
       rect:
         serializedVersion: 2
         x: 160
@@ -3070,7 +3070,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground_tiles_120
+      name: bottom_left
       rect:
         serializedVersion: 2
         x: 96
@@ -3091,7 +3091,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground_tiles_121
+      name: bottom
       rect:
         serializedVersion: 2
         x: 128
@@ -3112,7 +3112,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground_tiles_122
+      name: bottor_right
       rect:
         serializedVersion: 2
         x: 160

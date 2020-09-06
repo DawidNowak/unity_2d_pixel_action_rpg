@@ -5,9 +5,9 @@ public class ChobbinHood : EnemyController
 {
     protected override void Init()
     {
-        maxHealth = 10;
+        statictics = new StatisticsSystem(5, 5, 10, 0);
         hpPercWhenFlee = 0f;
-        expForKilling = 20;
+        expForKilling = 25;
         movingStrategy = WanderingStrategy.CreateComponent(gameObject, 2f);
         attackingStrategy = RangedProjectileStrategy.CreateComponent(gameObject, Vector3.up * 0.3f, attackRate: 0.5f);
 

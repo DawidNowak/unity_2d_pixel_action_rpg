@@ -5,7 +5,7 @@ public class Rabilion : EnemyController
 {
     protected override void Init()
     {
-        maxHealth = 5;
+        statictics = new StatisticsSystem(2, 2, 5, 0);
         hpPercWhenFlee = 0.4f;
         expForKilling = 10;
         movingStrategy = WanderingStrategy.CreateComponent(gameObject);

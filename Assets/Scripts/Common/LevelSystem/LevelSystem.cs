@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 
 public class LevelSystem
 {
@@ -38,9 +39,15 @@ public class LevelSystem
         {
             level++;
             experience -= experienceToNextLevel;
+            SetNewExperienceToNextLevel();
             OnLevelChanged?.Invoke(this, EventArgs.Empty);
         }
 
         OnExperienceChanged?.Invoke(this, EventArgs.Empty);
+    }
+
+    private void SetNewExperienceToNextLevel()
+    {
+        experienceToNextLevel = Mathf.RoundToInt(experienceToNextLevel * 1.2f);
     }
 }

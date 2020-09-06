@@ -33,15 +33,14 @@ public class Player : LivingObject
 
     protected override void Start()
     {
-        maxHealth = 5;
+        statictics = new StatisticsSystem(10, 10, 10, 5);
         animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
 
         base.Start();
 
-
-        healthbar.SetMaxValue(maxHealth);
-        manaBar.SetMaxValue(maxMana);
+        healthbar.SetMaxValue(statictics.HitPoints.CurrentValue);
+        manaBar.SetMaxValue(statictics.ManaPoints.CurrentValue);
 
         levelSystem = FindObjectOfType<GameManager>().GetLevelSystem();
         expBar.SetLevelSystem(levelSystem);

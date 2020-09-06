@@ -4,12 +4,11 @@ using UnityEngine;
 
 public abstract class LivingObject : MonoBehaviour
 {
+    public StatisticsSystem statictics;
     public GameObject damagePopup;
     public int health;
     public int mana;
 
-    protected int maxHealth = 1;
-    protected int maxMana = 1;
     protected float hpPercWhenFlee = 0f;
 
     protected virtual void Start()
@@ -20,8 +19,8 @@ public abstract class LivingObject : MonoBehaviour
 
     protected virtual void Init()
     {
-        health = maxHealth;
-        mana = maxMana;
+        health = statictics.HitPoints.CurrentValue;
+        mana = statictics.ManaPoints.CurrentValue;
     }
 
     public virtual void TakeDamage(int damage)
@@ -44,7 +43,7 @@ public abstract class LivingObject : MonoBehaviour
 
     protected bool NeedToFlee()
     {
-        return (float)health / maxHealth <= hpPercWhenFlee;
+        return (float)health / statictics.HitPoints.CurrentValue <= hpPercWhenFlee;
     }
 
     protected virtual void Die()
