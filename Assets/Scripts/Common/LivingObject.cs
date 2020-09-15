@@ -14,7 +14,6 @@ public abstract class LivingObject : MonoBehaviour
     protected virtual void Start()
     {
         Init();
-        damagePopup = (GameObject)Resources.Load("Prefabs/Common/UI/DamagePopup", typeof(GameObject));
     }
 
     protected virtual void Init()
@@ -27,7 +26,7 @@ public abstract class LivingObject : MonoBehaviour
     {
         health -= damage;
 
-        displayDamagePopup(damage);
+        DisplayDamagePopup(damage);
 
         if (health <= 0)
         {
@@ -35,10 +34,13 @@ public abstract class LivingObject : MonoBehaviour
         }
     }
 
-    private void displayDamagePopup(int damage)
+    protected virtual GameObject DisplayDamagePopup(int damage)
     {
         var popup = Instantiate(damagePopup, transform.position, Quaternion.identity);
-        popup.GetComponent<TextMeshPro>().text = damage.ToString();
+        popup.GetComponent<TextMesh>().text = damage.ToString();
+        var renderer = popup.GetComponent<MeshRenderer>();
+        renderer.sortingOrder = 1000;
+        return popup;
     }
 
     protected bool NeedToFlee()

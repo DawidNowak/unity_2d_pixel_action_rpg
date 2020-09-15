@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+
 public static class DamageFormula
 {
     public static int CountDamage<T>(int baseDamage, CharacterStat<T> statistics) where T : StatModifier

@@ -66,6 +66,13 @@ public class Player : LivingObject
         healthbar.SetValue(health);
     }
 
+    protected override GameObject DisplayDamagePopup(int damage)
+    {
+        var popup = base.DisplayDamagePopup(damage);
+        popup.GetComponent<TextMesh>().color = Color.red;
+        return popup;
+    }
+
     protected override void Die()
     {
         rigidBody.velocity = Vector2.zero;

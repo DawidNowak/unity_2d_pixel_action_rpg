@@ -11141,6 +11141,10 @@ PrefabInstance:
       propertyPath: expBar
       value: 
       objectReference: {fileID: 992266944}
+    - target: {fileID: -4884472674314100945, guid: 7622b73d10c0b0942a5b9a4fd6dc8d2d, type: 3}
+      propertyPath: damagePopup
+      value: 
+      objectReference: {fileID: 8329237123735997139, guid: 208cd45c43dcd6444bf11b796c2cbda8, type: 3}
     - target: {fileID: 3725751979525972538, guid: 7622b73d10c0b0942a5b9a4fd6dc8d2d, type: 3}
       propertyPath: m_Name
       value: Player
@@ -11201,10 +11205,6 @@ PrefabInstance:
     - target: {fileID: 5883910826638952914, guid: 78051b41ffd8e3946b7d190d2cc50af4, type: 3}
       propertyPath: m_Name
       value: ChobbinHood (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5883910826638952914, guid: 78051b41ffd8e3946b7d190d2cc50af4, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5883910826638952919, guid: 78051b41ffd8e3946b7d190d2cc50af4, type: 3}
       propertyPath: m_LocalPosition.x

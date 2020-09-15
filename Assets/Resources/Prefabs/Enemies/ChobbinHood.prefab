@@ -164,6 +164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed2c3520b84a2244d9f8eee141c14db5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
+  damagePopup: {fileID: 8329237123735997139, guid: 208cd45c43dcd6444bf11b796c2cbda8, type: 3}
   health: 0
-  hpPercWhenFlee: 0
+  mana: 0
