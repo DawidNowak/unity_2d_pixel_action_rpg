@@ -5,7 +5,7 @@ public class Rabilion : EnemyController
 {
     protected override void Init()
     {
-        statictics = new StatisticsSystem(2, 2, 5, 0);
+        statictics = new StatisticsSystem(2, 2, 3);
         hpPercWhenFlee = 0.4f;
         expForKilling = 10;
         movingStrategy = WanderingStrategy.CreateComponent(gameObject);
@@ -18,7 +18,7 @@ public class Rabilion : EnemyController
     {
         base.TakeDamage(damage);
 
-        if (health > 0)
+        if (statictics.HitPoints > 0)
         {
             if (!wasHit)
             {

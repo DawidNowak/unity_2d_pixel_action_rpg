@@ -24,6 +24,13 @@ public sealed class IntelligenceModifier : StatModifier
     }
 }
 
+public sealed class VitalityModifier : StatModifier
+{
+    public VitalityModifier(int value, object source) : base(value, source)
+    {
+    }
+}
+
 public sealed class HitPointsModifier : StatModifier
 {
     public HitPointsModifier(int value, object source) : base(value, source)

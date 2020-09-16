@@ -5,20 +5,18 @@ public class ChobbinHood : EnemyController
 {
     protected override void Init()
     {
-        statictics = new StatisticsSystem(5, 5, 10, 0);
+        statictics = new StatisticsSystem(5, 5, 6);
         hpPercWhenFlee = 0f;
         expForKilling = 25;
         movingStrategy = WanderingStrategy.CreateComponent(gameObject, 2f);
         attackingStrategy = RangedProjectileStrategy.CreateComponent(gameObject, Vector3.up * 0.3f, attackRate: 0.5f);
-
-        base.Init();
     }
 
     public override void TakeDamage(int damage)
     {
         base.TakeDamage(damage);
 
-        if (health > 0)
+        if (statictics.HitPoints > 0)
         {
             if (!wasHit)
             {

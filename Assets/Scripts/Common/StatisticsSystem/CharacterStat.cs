@@ -63,6 +63,11 @@ public sealed class IntelligenceStat : CharacterStat<IntelligenceModifier>
     public IntelligenceStat(int baseValue) : base(baseValue) { }
 }
 
+public sealed class VitalityStat : CharacterStat<VitalityModifier>
+{
+    public VitalityStat(int baseValue) : base(baseValue) { }
+}
+
 public sealed class HitPointsStat : CharacterStat<HitPointsModifier>
 {
     public HitPointsStat(int baseValue) : base(baseValue) { }

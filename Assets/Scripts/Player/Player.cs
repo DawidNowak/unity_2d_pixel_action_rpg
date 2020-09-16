@@ -33,17 +33,19 @@ public class Player : LivingObject
 
     protected override void Start()
     {
-        statictics = new StatisticsSystem(10, 10, 10, 5);
+        var gameManager = FindObjectOfType<GameManager>();
+        levelSystem = gameManager.GetLevelSystem();
+        expBar.SetLevelSystem(levelSystem);
+
+        statictics = gameManager.GetStatisticsSystem();
+
         animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
 
         base.Start();
 
-        healthbar.SetMaxValue(statictics.HitPoints.CurrentValue);
-        manaBar.SetMaxValue(statictics.ManaPoints.CurrentValue);
-
-        levelSystem = FindObjectOfType<GameManager>().GetLevelSystem();
-        expBar.SetLevelSystem(levelSystem);
+        healthbar.SetMaxValue(statictics.MaxHitPoints);
+        manaBar.SetMaxValue(statictics.MaxManaPoints);
     }
 
     void Update()
@@ -54,6 +56,11 @@ public class Player : LivingObject
 
     void FixedUpdate()
     {
+        //TODO: DELETE THIS
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            FindObjectOfType<GameManager>().GetLevelSystem().AddExperience(100);
+        }
         ProcessInputs();
         Animate();
         Move();
@@ -63,7 +70,7 @@ public class Player : LivingObject
     {
         animator.SetTrigger(Consts.Hurt);
         base.TakeDamage(damage);
-        healthbar.SetValue(health);
+        healthbar.SetValue(statictics.HitPoints);
     }
 
     protected override GameObject DisplayDamagePopup(int damage)

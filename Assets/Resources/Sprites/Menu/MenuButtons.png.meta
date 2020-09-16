@@ -10,7 +10,7 @@ TextureImporter:
     second: ControlsUp
   - first:
       213: 9060215553278879933
-    second: MainmenuUp
+    second: MainMenuUp
   - first:
       213: -3341821493477967250
     second: SettingsUp
@@ -32,6 +32,30 @@ TextureImporter:
   - first:
       213: -3518396900744409384
     second: CloseDown
+  - first:
+      213: 705637749053542586
+    second: AcceptUp
+  - first:
+      213: 2907944615588443035
+    second: AcceptDown
+  - first:
+      213: -1635576643417700177
+    second: ResetUp
+  - first:
+      213: 498396694489549519
+    second: ResetDown
+  - first:
+      213: 1427497230287804714
+    second: ArrowUpUp
+  - first:
+      213: 9168709475721047036
+    second: ArrowUpDown
+  - first:
+      213: 3136617198058898868
+    second: ArrowDownUp
+  - first:
+      213: 819995008993826366
+    second: ArrowDownDown
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -173,7 +197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MainmenuUp
+      name: MainMenuUp
       rect:
         serializedVersion: 2
         x: 119
@@ -336,6 +360,174 @@ TextureImporter:
       bones: []
       spriteID: 8de4b48f8a42c2fc0800000000000000
       internalID: -3518396900744409384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcceptUp
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 349
+        width: 48
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0517c4bcdeac900800000000000000
+      internalID: 705637749053542586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcceptDown
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 48
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93b8ae88381b5820800000000000000
+      internalID: 2907944615588443035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResetUp
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 349
+        width: 48
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8892e55b34d49e0800000000000000
+      internalID: -1635576643417700177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResetDown
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 332
+        width: 48
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca474c2729aae600800000000000000
+      internalID: 498396694489549519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArrowUpUp
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 390
+        width: 17
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a299821fa2d7fc310800000000000000
+      internalID: 1427497230287804714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArrowUpDown
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 373
+        width: 17
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb6c15b0bccd3f70800000000000000
+      internalID: 9168709475721047036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArrowDownUp
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 390
+        width: 17
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b58eae19b0878b20800000000000000
+      internalID: 3136617198058898868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArrowDownDown
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 373
+        width: 17
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e369bacbd15316b00800000000000000
+      internalID: 819995008993826366
       vertices: []
       indices: 
       edges: []

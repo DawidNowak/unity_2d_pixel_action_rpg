@@ -1,4 +1,6 @@
-﻿using TMPro;
+﻿using System;
+using System.Linq;
+using TMPro;
 using UnityEngine;
 
 public class PixelFontMerger : MonoBehaviour
@@ -9,18 +11,27 @@ public class PixelFontMerger : MonoBehaviour
 
     TextMeshProUGUI[] texts;
 
-    void Awake()
+    public string stringValue
     {
-        texts = textObject.GetComponentsInChildren<TextMeshProUGUI>();
-        foreach (var textMesh in texts)
+        get
         {
-            textMesh.text = text;
-            textMesh.fontSize = fontSize;
+            return texts.First().text;
+        }
+        set
+        {
+            foreach (var textMesh in texts)
+            {
+                textMesh.text = value;
+            }
         }
     }
 
     public void SetText(string text)
     {
+        if (texts == null)
+        {
+            Init();
+        }
         foreach (var textMesh in texts)
         {
             textMesh.text = text;
@@ -29,9 +40,23 @@ public class PixelFontMerger : MonoBehaviour
 
     public void SetFontSize(float size)
     {
+        if (texts == null)
+        {
+            Init();
+        }
         foreach (var textMesh in texts)
         {
             textMesh.fontSize = size;
+        }
+    }
+
+    private void Init()
+    {
+        texts = textObject.GetComponentsInChildren<TextMeshProUGUI>();
+        foreach (var textMesh in texts)
+        {
+            textMesh.text = text;
+            textMesh.fontSize = fontSize;
         }
     }
 }

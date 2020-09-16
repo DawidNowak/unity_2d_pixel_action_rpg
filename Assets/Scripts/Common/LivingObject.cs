@@ -1,13 +1,10 @@
 ﻿using System.Linq;
-using TMPro;
 using UnityEngine;
 
 public abstract class LivingObject : MonoBehaviour
 {
     public StatisticsSystem statictics;
     public GameObject damagePopup;
-    public int health;
-    public int mana;
 
     protected float hpPercWhenFlee = 0f;
 
@@ -18,17 +15,15 @@ public abstract class LivingObject : MonoBehaviour
 
     protected virtual void Init()
     {
-        health = statictics.HitPoints.CurrentValue;
-        mana = statictics.ManaPoints.CurrentValue;
     }
 
     public virtual void TakeDamage(int damage)
     {
-        health -= damage;
+        statictics.HitPoints -= damage;
 
         DisplayDamagePopup(damage);
 
-        if (health <= 0)
+        if (statictics.HitPoints <= 0)
         {
             Die();
         }
@@ -45,7 +40,7 @@ public abstract class LivingObject : MonoBehaviour
 
     protected bool NeedToFlee()
     {
-        return (float)health / statictics.HitPoints.CurrentValue <= hpPercWhenFlee;
+        return (float)statictics.HitPoints / statictics.MaxHitPoints <= hpPercWhenFlee;
     }
 
     protected virtual void Die()
