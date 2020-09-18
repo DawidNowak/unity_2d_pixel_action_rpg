@@ -21,6 +21,9 @@ public class StatsMenu : MonoBehaviour
 
     public PixelFontMerger StatsLeftText;
 
+    public Button Reset;
+    public Button Accept;
+
     void Awake()
     {
         statisticsSystem = FindObjectOfType<GameManager>().GetStatisticsSystem();
@@ -32,6 +35,9 @@ public class StatsMenu : MonoBehaviour
         IntDown.onClick.AddListener(SubInt);
         VitUp.onClick.AddListener(AddVit);
         VitDown.onClick.AddListener(SubVit);
+
+        Reset.onClick.AddListener(ResetStats);
+        Accept.onClick.AddListener(AcceptStats);
     }
 
     void OnEnable()
@@ -54,8 +60,8 @@ public class StatsMenu : MonoBehaviour
 
     private void StatisticsSystem_OnStatsToSpendChanged(object sender, EventArgs e)
     {
-        StatsLeftText.SetText($"{statisticsSystem.StatsToSpend}");
-        if (statisticsSystem.StatsToSpend > 0)
+        StatsLeftText.SetText($"{statsLeft}");
+        if (statsLeft > 0)
         {
             StrUp.gameObject.SetActive(true);
             IntUp.gameObject.SetActive(true);
@@ -125,5 +131,28 @@ public class StatsMenu : MonoBehaviour
     {
         statsLeft++;
         statisticsSystem.SetStatsToSpend(statsLeft);
+    }
+
+    private void ResetStats()
+    {
+        statsLeft = initStatsToSpend;
+        stre = initStr;
+        inte = initInt;
+        vita = initVit;
+
+        StrValue.SetText(initStr.ToString());
+        IntValue.SetText(initInt.ToString());
+        VitValue.SetText(initVit.ToString());
+
+        StatisticsSystem_OnStatsToSpendChanged(null, EventArgs.Empty);
+    }
+
+    private void AcceptStats()
+    {
+        statisticsSystem.Strength.SetBaseValue(statisticsSystem.Strength.BaseValue + (stre - statisticsSystem.Strength.BaseValue));
+        statisticsSystem.Intelligence.SetBaseValue(statisticsSystem.Intelligence.BaseValue + (inte - statisticsSystem.Intelligence.BaseValue));
+        statisticsSystem.Vitality.SetBaseValue(statisticsSystem.Vitality.BaseValue + (vita - statisticsSystem.Vitality.BaseValue));
+
+        OnEnable();
     }
 }

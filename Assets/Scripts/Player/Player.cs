@@ -28,7 +28,8 @@ public class Player : LivingObject
     public Transform attackPosition;
     public float weaponRange = 0.3f;
     public LayerMask destructibleLayers;
-    public int attackDamage = 2;
+    public int baseMinAttackDamage = 1;
+    public int baseMaxAttackDamage = 2;
     #endregion
 
     protected override void Start()
@@ -121,7 +122,8 @@ public class Player : LivingObject
 
         foreach (var enemy in enemies)
         {
-            enemy.GetComponent<LivingObject>().TakeDamage(attackDamage);
+            var dmg = DamageFormula.CountDamage(baseMinAttackDamage, baseMaxAttackDamage, statictics.Strength);
+            enemy.GetComponent<LivingObject>().TakeDamage(dmg);
         }
     }
 

@@ -2,6 +2,8 @@
 
 public class DamagePopup : MonoBehaviour
 {
+    public MeshRenderer meshRenderer;
+
     private readonly float moveSpeed = 1f;
     private readonly float displayTime = 1f;
 
@@ -9,6 +11,8 @@ public class DamagePopup : MonoBehaviour
 
     void Start()
     {
+        meshRenderer.sortingLayerName = "Objects";
+        meshRenderer.sortingOrder = 1000;
         target = transform.position + new Vector3(1f, 1f);
         Destroy(gameObject, displayTime);
     }
